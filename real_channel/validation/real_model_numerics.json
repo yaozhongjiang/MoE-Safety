@@ -1,0 +1,70 @@
+{
+  "model_path": "/home/user/.cache/huggingface/hub/models--ibm-granite--granite-3.0-1b-a400m-base/snapshots/d91cbed802d85eb1b32374623331f6ab2b37403a",
+  "config_sha256": "d281b6413c613a618863dc613f50a17fc4460a2a9882cf9c8e77c8329280c062",
+  "torch": "2.11.0",
+  "transformers": "4.51.3",
+  "device": "cpu",
+  "source": "existing local checkpoint; no model or dataset downloaded by this check",
+  "purpose": "real-weight numerical validation, NOT hardware channel or attribute accuracy",
+  "fp16_stock_dynamic_cache": {
+    "finite_by_position": [
+      [
+        true,
+        false,
+        false,
+        false
+      ]
+    ],
+    "nan_by_position": [
+      [
+        0,
+        49152,
+        49152,
+        49152
+      ]
+    ]
+  },
+  "bf16_cases": [
+    {
+      "defense": "none",
+      "case": 0,
+      "tokens": 32,
+      "finite": true,
+      "max_abs_vs_stock": 0.0,
+      "stock_bitwise_equal": true,
+      "stock_greedy_equal": true,
+      "none_full_bitwise_equal": null
+    },
+    {
+      "defense": "none",
+      "case": 1,
+      "tokens": 32,
+      "finite": true,
+      "max_abs_vs_stock": 0.0,
+      "stock_bitwise_equal": true,
+      "stock_greedy_equal": true,
+      "none_full_bitwise_equal": null
+    },
+    {
+      "defense": "full",
+      "case": 0,
+      "tokens": 32,
+      "finite": true,
+      "max_abs_vs_stock": 0.0,
+      "stock_bitwise_equal": true,
+      "stock_greedy_equal": true,
+      "none_full_bitwise_equal": true
+    },
+    {
+      "defense": "full",
+      "case": 1,
+      "tokens": 32,
+      "finite": true,
+      "max_abs_vs_stock": 0.0,
+      "stock_bitwise_equal": true,
+      "stock_greedy_equal": true,
+      "none_full_bitwise_equal": true
+    }
+  ],
+  "elapsed_seconds": 12.424861666979268
+}

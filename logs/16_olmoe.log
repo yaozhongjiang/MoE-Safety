@@ -1,0 +1,35 @@
+[OLMoE-1B-7B-0924] E=64 k=8 device=MPS bf16
+[union] B=  1: experts touched by real routing per layer =  12.5% (min 12.5%, max 12.5%); uniform-routing model  12.5%
+[union] B=  2: experts touched by real routing per layer =  23.1% (min 20.3%, max 25.0%); uniform-routing model  23.4%
+[union] B=  4: experts touched by real routing per layer =  37.6% (min 31.2%, max 42.2%); uniform-routing model  41.4%
+[union] B=  8: experts touched by real routing per layer =  52.7% (min 43.8%, max 62.5%); uniform-routing model  65.6%
+[union] B= 16: experts touched by real routing per layer =  75.0% (min 62.5%, max 81.2%); uniform-routing model  88.2%
+[union] B= 32: experts touched by real routing per layer =  85.7% (min 75.0%, max 96.9%); uniform-routing model  98.6%
+[union] B= 64: experts touched by real routing per layer =  91.0% (min 84.4%, max 98.4%); uniform-routing model 100.0%
+[union] B=128: experts touched by real routing per layer =  95.2% (min 90.6%, max 100.0%); uniform-routing model 100.0%
+[union] B=256: experts touched by real routing per layer =  97.9% (min 93.8%, max 100.0%); uniform-routing model 100.0%
+[check] {'clean_vs_clean': 0.0, 'fused_full_vs_clean': 1.484375, 'separate_full_vs_clean': 0.0, 'loss_clean': 2.497307538986206, 'loss_fused_full': 2.49766206741333, 'loss_separate_full': 2.497307538986206}
+[native  nd= 0 m/k= 1.0] prefill512=  4293.5 ms  decode b1= 174.40 ms/step  decode b8= 759.25 ms/step  decode b32=1580.20 ms/step
+[grouped nd= 0 m/k= 1.0] prefill512=   138.0 ms  decode b1=  32.70 ms/step  decode b8=  67.40 ms/step  decode b32=  90.19 ms/step
+[grouped nd= 4 m/k= 1.5] prefill512=   160.7 ms  decode b1=  39.84 ms/step  decode b8=  78.37 ms/step  decode b32= 105.95 ms/step
+[grouped nd= 8 m/k= 2.0] prefill512=   167.6 ms  decode b1=  41.96 ms/step  decode b8=  83.38 ms/step  decode b32= 113.75 ms/step
+[grouped nd=24 m/k= 4.0] prefill512=   408.3 ms  decode b1=  53.70 ms/step  decode b8= 107.12 ms/step  decode b32= 134.45 ms/step
+[grouped nd=56 m/k= 8.0] prefill512=   733.3 ms  decode b1=  91.60 ms/step  decode b8= 119.35 ms/step  decode b32= 141.15 ms/step
+[separate nd= 4 m/k= 1.5] prefill512=   281.9 ms  decode b1=  53.04 ms/step  decode b8= 123.31 ms/step  decode b32= 189.26 ms/step
+[separate nd= 8 m/k= 2.0] prefill512=   342.3 ms  decode b1=  57.14 ms/step  decode b8= 141.49 ms/step  decode b32= 217.25 ms/step
+[separate nd=24 m/k= 4.0] prefill512=   614.0 ms  decode b1=  78.16 ms/step  decode b8= 163.27 ms/step  decode b32= 209.22 ms/step
+[separate nd=56 m/k= 8.0] prefill512=   728.0 ms  decode b1= 100.98 ms/step  decode b8= 179.73 ms/step  decode b32= 216.28 ms/step
+[dense   nd= 0 m/k= 1.0] prefill512=   217.8 ms  decode b1=  39.20 ms/step  decode b8=  57.97 ms/step  decode b32=  79.61 ms/step
+
+overhead relative to grouped, n_dummy=0:
+  native  nd= 0: prefill512_ms=31.12x  decode_b1_ms=5.33x  decode_b8_ms=11.26x  decode_b32_ms=17.52x
+  grouped nd= 0: prefill512_ms=1.00x  decode_b1_ms=1.00x  decode_b8_ms=1.00x  decode_b32_ms=1.00x
+  grouped nd= 4: prefill512_ms=1.16x  decode_b1_ms=1.22x  decode_b8_ms=1.16x  decode_b32_ms=1.17x
+  grouped nd= 8: prefill512_ms=1.21x  decode_b1_ms=1.28x  decode_b8_ms=1.24x  decode_b32_ms=1.26x
+  grouped nd=24: prefill512_ms=2.96x  decode_b1_ms=1.64x  decode_b8_ms=1.59x  decode_b32_ms=1.49x
+  grouped nd=56: prefill512_ms=5.31x  decode_b1_ms=2.80x  decode_b8_ms=1.77x  decode_b32_ms=1.56x
+  separate nd= 4: prefill512_ms=2.04x  decode_b1_ms=1.62x  decode_b8_ms=1.83x  decode_b32_ms=2.10x
+  separate nd= 8: prefill512_ms=2.48x  decode_b1_ms=1.75x  decode_b8_ms=2.10x  decode_b32_ms=2.41x
+  separate nd=24: prefill512_ms=4.45x  decode_b1_ms=2.39x  decode_b8_ms=2.42x  decode_b32_ms=2.32x
+  separate nd=56: prefill512_ms=5.28x  decode_b1_ms=3.09x  decode_b8_ms=2.67x  decode_b32_ms=2.40x
+  dense   nd= 0: prefill512_ms=1.58x  decode_b1_ms=1.20x  decode_b8_ms=0.86x  decode_b32_ms=0.88x

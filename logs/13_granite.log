@@ -1,0 +1,18 @@
+[granite-3.0-1b-a400m-base] E=32 k=8 layers=24 device=cpu dtype=torch.float32 n_dummy=12 (chance precision 0.400)
+[a] clean_repeat n_dummy= 0: loss_ref=2.56922728 loss=2.56922728 |dL|=0.00e+00 max|dlogit|=0.00e+00
+[a] decoy_2x     n_dummy= 8: loss_ref=2.56922728 loss=2.56922728 |dL|=0.00e+00 max|dlogit|=0.00e+00
+[a] decoy_full   n_dummy=24: loss_ref=2.56922728 loss=2.56922728 |dL|=0.00e+00 max|dlogit|=0.00e+00
+[b] real routing identical across 6 genuine repeats: [True, True, True, True, True]
+[b] naive : precision=0.956 recall=1.000 (5 inputs x 128 tokens)
+[b] prefix: precision=0.400 recall=1.000 (5 inputs x 128 tokens)
+[b] whole : precision=0.400 recall=1.000 (5 inputs x 128 tokens)
+[c] real routing identical over shared 40-token prefix: 1.000
+[c] prefix-keyed agreement: shared=1.000 after edit=0.000
+[c] whole-hash   agreement: shared=0.000 after edit=0.000
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[d] greedy continuation: ', and she was even more surprised to find him'; identical text across 16 requests: True; identical real routing: True
+[d] T= 1: fresh-nonce precision=0.400  static g=4 precision=0.350  static g=8 precision=0.269
+[d] T= 2: fresh-nonce precision=0.575  static g=4 precision=0.350  static g=8 precision=0.269
+[d] T= 4: fresh-nonce precision=0.847  static g=4 precision=0.350  static g=8 precision=0.269
+[d] T= 8: fresh-nonce precision=0.988  static g=4 precision=0.350  static g=8 precision=0.269
+[d] T=16: fresh-nonce precision=1.000  static g=4 precision=0.350  static g=8 precision=0.269

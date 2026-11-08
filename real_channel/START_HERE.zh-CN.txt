@@ -1,0 +1,26 @@
+RTX 3070 8GB / Windows WSL2 Ubuntu 实验包
+
+v4：默认 BF16、显式 DynamicCache、匹配 stock 的 index_add 求和与 NaN/Inf 检查；包含此前的 raw CSV/NVTX 名称兼容修复。
+
+1. 先阅读 WSL_SETUP.zh-CN.md，完成 Windows NVIDIA 驱动、WSL2、Docker Desktop 和 GPU 性能计数器权限配置。
+2. 将本压缩包复制到目标机器，在 Ubuntu 的 Linux 文件系统中解压。
+3. 进入解压后的 real_channel 目录，依次执行：
+
+   bash run.sh --doctor-only
+   bash run.sh --preset smoke
+   bash run.sh --preset quick
+
+仅在 doctor 和 smoke 成功后运行更大规模实验：
+
+   bash run.sh --preset paper
+
+模型和数据会从魔搭自动下载，Docker 基础镜像来自 docker.1ms.run。
+本包不含模型权重、原始数据、缓存或历史 GPU 实验结果，因此首次运行需要联网。
+结果保存在 artifacts/<运行目录>/；出现 COMPLETE.json 才表示完整流程成功。
+
+本包实现受控、NVTX 辅助的 MoEcho GPU counter 实验，不是 Intel AMX GateBleed。
+软件检查记录见 validation/VALIDATION.zh-CN.md；目标 RTX 3070 的实机验收由 doctor/smoke 完成。
+
+如需核对解压文件，在 real_channel 目录运行：
+
+   sha256sum -c MANIFEST.sha256

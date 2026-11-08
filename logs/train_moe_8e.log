@@ -1,0 +1,10 @@
+training moe_8e: n_experts=8 topk=2 steps=500
+step    0 loss 4.672
+step  100 loss 2.383
+step  200 loss 2.120
+step  300 loss 1.866
+step  400 loss 1.532
+step  499 loss 1.460
+moe_8e held-out val loss 1.4924 (ppl 4.45)
+saved checkpoints/moe_8e.pt
+

@@ -1,0 +1,12 @@
+[OLMoE-1B-7B-0924] g= 2 index  avg m/k=1.89  dialogue: mp 87.8 ds 88.1  genre: mp 99.1 ds 98.9  entity: mp 79.7 ds 85.9  topic: mp 64.6 ds 64.1
+[OLMoE-1B-7B-0924] g= 2 random avg m/k=1.89  dialogue: mp 86.8 ds 81.5  genre: mp 99.1 ds 99.3  entity: mp 81.6 ds 87.3  topic: mp 64.9 ds 66.4
+[OLMoE-1B-7B-0924] g= 2 coact  avg m/k=1.55  dialogue: mp 87.5 ds 87.9  genre: mp 98.7 ds 99.1  entity: mp 79.7 ds 78.1  topic: mp 67.1 ds 67.7
+[OLMoE-1B-7B-0924] g= 4 index  avg m/k=3.40  dialogue: mp 84.9 ds 89.3  genre: mp 98.5 ds 98.5  entity: mp 76.8 ds 84.7  topic: mp 61.8 ds 63.5
+[OLMoE-1B-7B-0924] g= 4 random avg m/k=3.40  dialogue: mp 87.3 ds 87.3  genre: mp 93.9 ds 99.1  entity: mp 77.7 ds 89.1  topic: mp 65.9 ds 64.1
+[OLMoE-1B-7B-0924] g= 4 coact  avg m/k=2.41  dialogue: mp 85.5 ds 87.6  genre: mp 99.3 ds 99.1  entity: mp 74.3 ds 88.1  topic: mp 68.3 ds 68.7
+[OLMoE-1B-7B-0924] g= 8 index  avg m/k=5.52  dialogue: mp 83.1 ds 85.4  genre: mp 88.6 ds 98.0  entity: mp 73.9 ds 76.3  topic: mp 62.2 ds 61.5
+[OLMoE-1B-7B-0924] g= 8 random avg m/k=5.45  dialogue: mp 84.6 ds 85.9  genre: mp 98.5 ds 97.8  entity: mp 73.6 ds 77.9  topic: mp 63.8 ds 64.7
+[OLMoE-1B-7B-0924] g= 8 coact  avg m/k=3.70  dialogue: mp 83.0 ds 90.0  genre: mp 99.3 ds 99.1  entity: mp 71.3 ds 86.5  topic: mp 61.9 ds 60.8
+[OLMoE-1B-7B-0924] g=16 index  avg m/k=7.33  dialogue: mp 74.6 ds 76.4  genre: mp 94.9 ds 93.7  entity: mp 59.7 ds 67.2  topic: mp 54.3 ds 62.7
+[OLMoE-1B-7B-0924] g=16 random avg m/k=7.31  dialogue: mp 73.3 ds 72.3  genre: mp 97.3 ds 96.8  entity: mp 65.7 ds 65.3  topic: mp 64.7 ds 64.3
+[OLMoE-1B-7B-0924] g=16 coact  avg m/k=5.47  dialogue: mp 79.6 ds 82.9  genre: mp 98.5 ds 98.5  entity: mp 72.1 ds 80.7  topic: mp 59.3 ds 59.1

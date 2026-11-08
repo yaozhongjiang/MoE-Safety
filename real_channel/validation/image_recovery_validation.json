@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "round": 1,
+      "scope": "bash syntax, pinned Dockerfile dependency equality, unchanged core fingerprint",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "scope": "real shell + simulated Docker process contracts",
+      "tests_passed": 7,
+      "seconds": 1.76
+    },
+    {
+      "round": 3,
+      "scope": "clean v4 + performance ZIP + image recovery ZIP extraction; complete combined suites",
+      "tests_passed": 133,
+      "seconds": 18.02
+    }
+  ],
+  "core_fingerprint": "83bf6a5cab9f49243ffbbd4a07b78141d76fa63583ae3a6a2d6ac5b81d2c4e54",
+  "target_rtx3070_tested": false,
+  "full_docker_image_build_tested": false,
+  "registry_manifest_check": "validation/image_registry_check.json"
+}

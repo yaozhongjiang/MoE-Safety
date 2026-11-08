@@ -1,0 +1,11 @@
+clean (no defense) accuracy: 0.5700 (chance=0.50)
+
+=== Static grouping vs decoy injection at matched revealed-set size ===
+static grouping g=4: naive=0.5000  adaptive=0.5900
+static grouping g=8: naive=0.5000  adaptive=0.5000
+
+=== Measured cost: label-layer relabeling vs physically-enforced group indistinguishability ===
+k real only (label-layer, free)       : 5.2 ms/forward
+g=2 physically enforced               : 13.8 ms/forward
+g=4 physically enforced               : 26.9 ms/forward
+g=8 physically enforced               : 36.4 ms/forward

@@ -1,0 +1,8 @@
+k real only (label-layer, free)       : 5.0 ms/forward (median)
+g=2 physically enforced               : 15.0 ms/forward (median)
+g=4 physically enforced               : 28.8 ms/forward (median)
+g=8 physically enforced               : 38.3 ms/forward (median)
+k real only (label-layer, free)       : 5.1 ms/forward (median)
+g=2 physically enforced               : 15.0 ms/forward (median)
+g=4 physically enforced               : 28.4 ms/forward (median)
+g=8 physically enforced               : 37.9 ms/forward (median)

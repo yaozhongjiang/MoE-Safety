@@ -1,0 +1,18 @@
+name, driver_version, memory.total [MiB]
+NVIDIA A100 80GB PCIe, 580.173.02, 81920 MiB
+=== allenai/OLMoE-1B-7B-0924 n_dummy=8 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd8.json
+Fri  2 Oct 01:47:27 BST 2026
+161:[rank0]: Traceback (most recent call last):
+301:[rank0]: torch.AcceleratorError: CUDA error: device-side assert triggered
+302:[rank0]: Search for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+=== allenai/OLMoE-1B-7B-0924 n_dummy=24 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd24.json
+Fri  2 Oct 01:47:54 BST 2026
+449:[rank0]: Traceback (most recent call last):
+589:[rank0]: torch.AcceleratorError: CUDA error: device-side assert triggered
+590:[rank0]: Search for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+=== allenai/OLMoE-1B-7B-0924 n_dummy=56 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd56.json
+Fri  2 Oct 01:48:18 BST 2026
+385:[rank0]: Traceback (most recent call last):
+525:[rank0]: torch.AcceleratorError: CUDA error: device-side assert triggered
+526:[rank0]: Search for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+Fri  2 Oct 01:48:42 BST 2026

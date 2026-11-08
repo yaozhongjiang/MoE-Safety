@@ -1,0 +1,20 @@
+=== (a) naive random dummy selection: repeated-query attack ===
+precision=0.960 recall=1.000  (naive scheme should score very high precision ~0.9+)
+
+=== (b) deterministic v1 (prefix-keyed): repeated-query attack ===
+precision=0.400 recall=1.000  (should drop to chance = k/m)
+
+=== (b) deterministic v1: prefix-comparison attack (40-char shared prefix) ===
+per-position agreement (expect ~1.0 before pos 40, drop after):
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+mean agreement over shared region [0:40]: 1.000  (should be ~1.0 -- the vulnerability)
+
+=== (c) deterministic v2 (whole-input-hash): repeated-query attack ===
+precision=0.400 recall=1.000  (should remain at chance = k/m, fix preserved)
+
+=== (c) deterministic v2: prefix-comparison attack (same 40-char test) ===
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.25, 0.0, 0.0, 0.0, 0.0, 0.5, 0.25, 0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.25, 0.0, 0.25, 0.25, 0.25, 0.0, 0.0, 0.25, 0.25, 0.0, 0.0, 0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.25, 0.0]
+mean agreement over previously-leaking region [0:40]: 0.087  (should now be near chance, NOT 1.0)
+
+=== Sanity check: Delta L = 0 for the fixed (v2) scheme ===
+clean loss=1.653461  v2-dummy loss=1.653461  diff=0.00000000

@@ -1,0 +1,108 @@
+[OLMoE-1B-7B-0924] E=64 k=8 L=16
+[calib] sigma=0.0 (x router-logit std): held-out loss 2.6031 (+0.0%)
+[calib] sigma=0.25 (x router-logit std): held-out loss 2.6253 (+0.9%)
+[calib] sigma=0.5 (x router-logit std): held-out loss 2.7099 (+4.1%)
+[calib] sigma=1.0 (x router-logit std): held-out loss 3.0771 (+18.2%)
+[calib] sigma=1.25 (x router-logit std): held-out loss 3.3267 (+27.8%)
+[calib] sigma=1.5 (x router-logit std): held-out loss 3.9533 (+51.9%)
+[calib] sigma=2.0 (x router-logit std): held-out loss 4.8552 (+86.5%)
+[calib] chosen sigma levels: 0.5 and 1.25
+[dialogue seed=0 t=665s] clean=0.843  noise0.5=0.847/0.850  noise1.25=0.813/0.843  decoy12=0.830/0.843  decoy56=0.500/0.500  group4=0.830/0.837  group16=0.543/0.733  group32=0.500/0.500  group64=0.500/0.500
+[dialogue seed=1 t=978s] clean=0.887  noise0.5=0.860/0.887  noise1.25=0.760/0.850  decoy12=0.607/0.827  decoy56=0.500/0.500  group4=0.513/0.910  group16=0.500/0.777  group32=0.500/0.500  group64=0.500/0.500
+[dialogue seed=2 t=1208s] clean=0.910  noise0.5=0.903/0.887  noise1.25=0.827/0.837  decoy12=0.760/0.870  decoy56=0.500/0.500  group4=0.583/0.873  group16=0.500/0.787  group32=0.500/0.500  group64=0.500/0.500
+[dialogue seed=3 t=1396s] clean=0.873  noise0.5=0.867/0.713  noise1.25=0.853/0.837  decoy12=0.797/0.870  decoy56=0.500/0.500  group4=0.523/0.890  group16=0.500/0.733  group32=0.500/0.500  group64=0.500/0.500
+[dialogue seed=4 t=1516s] clean=0.893  noise0.5=0.850/0.887  noise1.25=0.727/0.827  decoy12=0.660/0.893  decoy56=0.500/0.500  group4=0.510/0.890  group16=0.500/0.787  group32=0.500/0.500  group64=0.500/0.500
+[dialogue] 5-seed mean (std):
+   clean        0.881 (0.025)
+   noise0.5     naive    0.865 (0.023)
+   noise0.5     adaptive 0.845 (0.075)
+   noise1.25    naive    0.796 (0.052)
+   noise1.25    adaptive 0.839 (0.009)
+   decoy12      naive    0.731 (0.094)
+   decoy12      adaptive 0.861 (0.026)
+   decoy56      naive    0.500 (0.000)
+   decoy56      adaptive 0.500 (0.000)
+   group4       naive    0.592 (0.136)
+   group4       adaptive 0.880 (0.027)
+   group16      naive    0.509 (0.019)
+   group16      adaptive 0.763 (0.028)
+   group32      naive    0.500 (0.000)
+   group32      adaptive 0.500 (0.000)
+   group64      naive    0.500 (0.000)
+   group64      adaptive 0.500 (0.000)
+[genre seed=0 t=2205s] clean=0.990  noise0.5=0.987/0.997  noise1.25=0.940/0.990  decoy12=0.990/0.990  decoy56=0.500/0.500  group4=0.923/0.987  group16=0.500/0.983  group32=0.500/0.530  group64=0.500/0.500
+[genre seed=1 t=2625s] clean=0.987  noise0.5=0.987/0.990  noise1.25=0.983/0.997  decoy12=0.987/0.993  decoy56=0.500/0.500  group4=0.967/0.980  group16=0.557/0.967  group32=0.500/0.630  group64=0.500/0.500
+[genre seed=2 t=2896s] clean=0.997  noise0.5=0.993/0.993  noise1.25=0.960/0.960  decoy12=0.993/0.993  decoy56=0.500/0.500  group4=0.977/0.997  group16=0.763/0.967  group32=0.500/0.637  group64=0.500/0.500
+[genre seed=3 t=3095s] clean=0.983  noise0.5=0.980/0.987  noise1.25=0.950/0.993  decoy12=0.977/0.983  decoy56=0.500/0.500  group4=0.947/0.977  group16=0.500/0.723  group32=0.500/0.500  group64=0.500/0.500
+[genre seed=4 t=3215s] clean=0.990  noise0.5=0.983/0.997  noise1.25=0.903/0.993  decoy12=0.970/0.993  decoy56=0.500/0.500  group4=0.880/0.990  group16=0.500/0.900  group32=0.500/0.527  group64=0.500/0.500
+[genre] 5-seed mean (std):
+   clean        0.989 (0.005)
+   noise0.5     naive    0.986 (0.005)
+   noise0.5     adaptive 0.993 (0.004)
+   noise1.25    naive    0.947 (0.029)
+   noise1.25    adaptive 0.987 (0.015)
+   decoy12      naive    0.983 (0.010)
+   decoy12      adaptive 0.991 (0.004)
+   decoy56      naive    0.500 (0.000)
+   decoy56      adaptive 0.500 (0.000)
+   group4       naive    0.939 (0.039)
+   group4       adaptive 0.986 (0.008)
+   group16      naive    0.564 (0.114)
+   group16      adaptive 0.908 (0.108)
+   group32      naive    0.500 (0.000)
+   group32      adaptive 0.565 (0.064)
+   group64      naive    0.500 (0.000)
+   group64      adaptive 0.500 (0.000)
+[entity seed=0 t=3524s] clean=0.857  noise0.5=0.670/0.743  noise1.25=0.503/0.780  decoy12=0.500/0.500  decoy56=0.500/0.500  group4=0.500/0.803  group16=0.500/0.727  group32=0.500/0.500  group64=0.500/0.500  ratio1.0=0.843  ratio1.5=0.793  ratio2.0=0.767  ratio3.0=0.733  ratio4.5=0.730  ratio6.0=0.603  ratio8.0=0.500
+[entity seed=1 t=3717s] clean=0.813  noise0.5=0.737/0.753  noise1.25=0.547/0.737  decoy12=0.500/0.747  decoy56=0.500/0.500  group4=0.500/0.760  group16=0.500/0.643  group32=0.500/0.500  group64=0.500/0.500  ratio1.0=0.790  ratio1.5=0.767  ratio2.0=0.747  ratio3.0=0.700  ratio4.5=0.773  ratio6.0=0.513  ratio8.0=0.500
+[entity seed=2 t=3845s] clean=0.843  noise0.5=0.787/0.707  noise1.25=0.567/0.717  decoy12=0.500/0.693  decoy56=0.500/0.500  group4=0.500/0.773  group16=0.500/0.647  group32=0.500/0.603  group64=0.500/0.500  ratio1.0=0.837  ratio1.5=0.797  ratio2.0=0.777  ratio3.0=0.710  ratio4.5=0.683  ratio6.0=0.633  ratio8.0=0.500
+[entity seed=3 t=3955s] clean=0.787  noise0.5=0.653/0.780  noise1.25=0.500/0.680  decoy12=0.500/0.747  decoy56=0.500/0.500  group4=0.500/0.727  group16=0.500/0.627  group32=0.500/0.517  group64=0.500/0.500  ratio1.0=0.837  ratio1.5=0.797  ratio2.0=0.627  ratio3.0=0.727  ratio4.5=0.670  ratio6.0=0.580  ratio8.0=0.500
+[entity seed=4 t=4013s] clean=0.820  noise0.5=0.730/0.820  noise1.25=0.527/0.750  decoy12=0.500/0.710  decoy56=0.500/0.500  group4=0.500/0.793  group16=0.500/0.663  group32=0.500/0.500  group64=0.500/0.500  ratio1.0=0.833  ratio1.5=0.803  ratio2.0=0.653  ratio3.0=0.507  ratio4.5=0.703  ratio6.0=0.693  ratio8.0=0.500
+[entity] 5-seed mean (std):
+   clean        0.824 (0.027)
+   noise0.5     naive    0.715 (0.054)
+   noise0.5     adaptive 0.761 (0.042)
+   noise1.25    naive    0.529 (0.028)
+   noise1.25    adaptive 0.733 (0.037)
+   decoy12      naive    0.500 (0.000)
+   decoy12      adaptive 0.679 (0.103)
+   decoy56      naive    0.500 (0.000)
+   decoy56      adaptive 0.500 (0.000)
+   group4       naive    0.500 (0.000)
+   group4       adaptive 0.771 (0.030)
+   group16      naive    0.500 (0.000)
+   group16      adaptive 0.661 (0.039)
+   group32      naive    0.500 (0.000)
+   group32      adaptive 0.524 (0.045)
+   group64      naive    0.500 (0.000)
+   group64      adaptive 0.500 (0.000)
+   ratio1.0     0.828 (0.022)
+   ratio1.5     0.791 (0.014)
+   ratio2.0     0.714 (0.069)
+   ratio3.0     0.675 (0.095)
+   ratio4.5     0.712 (0.041)
+   ratio6.0     0.605 (0.066)
+   ratio8.0     0.500 (0.000)
+[topic seed=0 t=4261s] clean=0.607  noise0.5=0.597/0.650  noise1.25=0.500/0.597  decoy12=0.500/0.610  decoy56=0.500/0.500  group4=0.500/0.613  group16=0.500/0.613  group32=0.500/0.493  group64=0.500/0.500
+[topic seed=1 t=4397s] clean=0.650  noise0.5=0.627/0.647  noise1.25=0.523/0.620  decoy12=0.500/0.617  decoy56=0.500/0.500  group4=0.500/0.593  group16=0.500/0.603  group32=0.500/0.500  group64=0.500/0.500
+[topic seed=2 t=4463s] clean=0.663  noise0.5=0.660/0.660  noise1.25=0.553/0.643  decoy12=0.500/0.637  decoy56=0.500/0.500  group4=0.500/0.660  group16=0.500/0.637  group32=0.500/0.500  group64=0.500/0.500
+[topic seed=3 t=4515s] clean=0.630  noise0.5=0.640/0.650  noise1.25=0.590/0.653  decoy12=0.517/0.617  decoy56=0.500/0.500  group4=0.527/0.660  group16=0.500/0.563  group32=0.500/0.500  group64=0.500/0.500
+[topic seed=4 t=4544s] clean=0.677  noise0.5=0.643/0.677  noise1.25=0.527/0.670  decoy12=0.500/0.730  decoy56=0.500/0.500  group4=0.500/0.623  group16=0.500/0.607  group32=0.500/0.500  group64=0.500/0.500
+[topic] 5-seed mean (std):
+   clean        0.645 (0.028)
+   noise0.5     naive    0.633 (0.024)
+   noise0.5     adaptive 0.657 (0.012)
+   noise1.25    naive    0.539 (0.034)
+   noise1.25    adaptive 0.637 (0.029)
+   decoy12      naive    0.503 (0.007)
+   decoy12      adaptive 0.642 (0.050)
+   decoy56      naive    0.500 (0.000)
+   decoy56      adaptive 0.500 (0.000)
+   group4       naive    0.505 (0.012)
+   group4       adaptive 0.630 (0.029)
+   group16      naive    0.500 (0.000)
+   group16      adaptive 0.605 (0.027)
+   group32      naive    0.500 (0.000)
+   group32      adaptive 0.499 (0.003)
+   group64      naive    0.500 (0.000)
+   group64      adaptive 0.500 (0.000)

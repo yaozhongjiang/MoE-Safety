@@ -1,0 +1,12 @@
+name, driver_version, memory.total [MiB]
+NVIDIA A100 80GB PCIe, 580.173.02, 81920 MiB
+=== allenai/OLMoE-1B-7B-0924 n_dummy=0 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd0.json
+Fri  2 Oct 01:34:41 BST 2026
+[rank0]:  /usr/bin/nvcc --generate-dependencies-with-compile -MF /path/to/storage -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/path/to/storage -I/path/to/storage -I/path/to/storage -isystem /path/to/python -isystem /path/to/storage -isystem /path/to/storage -isystem /path/to/storage -isystem /path/to/storage -isystem /path/to/storage -isystem /path/to/storage -isystem /path/to/storage --compiler-options=-fPIC --expt-relaxed-constexpr -gencode=arch=compute_80,code=sm_80 -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -c /path/to/storage -o /path/to/storage 
+[rank0]: nvcc fatal   : Unknown option '--compress-mode=size'
+[rank0]: ninja: build stopped: subcommand failed.
+
+[rank0]:[W1002 01:41:27.659811115 ProcessGroupNCCL.cpp:1624] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+=== allenai/OLMoE-1B-7B-0924 n_dummy=56 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd56.json
+Fri  2 Oct 01:41:28 BST 2026
+[2026-10-02T01:41:47.372] error: *** JOB 37707025 ON node CANCELLED AT 2026-10-02T01:41:47 DUE to SIGNAL Terminated ***

@@ -1,0 +1,32 @@
+name, driver_version, memory.total [MiB], memory.free [MiB]
+NVIDIA H200, 580.173.02, 143771 MiB, 143156 MiB
+=== coverage
+Fri  9 Oct 03:21:21 BST 2026
+B=  1: experts touched   3.1% (min 3.1, max 3.1, 152 layer-steps); uniform model   3.1%
+B=  2: experts touched   6.1% (min 5.1, max 6.2, 152 layer-steps); uniform model   6.2%
+B=  4: experts touched  10.1% (min 7.8, max 12.1, 152 layer-steps); uniform model  11.9%
+B=  8: experts touched  16.2% (min 12.1, max 21.9, 152 layer-steps); uniform model  22.4%
+B= 16: experts touched  24.3% (min 19.1, max 34.4, 152 layer-steps); uniform model  39.8%
+B= 32: experts touched  33.1% (min 25.0, max 53.1, 152 layer-steps); uniform model  63.8%
+B= 64: experts touched  40.7% (min 28.9, max 69.9, 152 layer-steps); uniform model  86.9%
+B=128: experts touched  49.4% (min 35.5, max 79.7, 152 layer-steps); uniform model  98.3%
+B=256: experts touched  57.4% (min 42.6, max 87.1, 152 layer-steps); uniform model 100.0%
+=== n_dummy=0
+Fri  9 Oct 03:23:54 BST 2026
+{"model": "inclusionAI/Ling-mini-base-2.0", "n_dummy": 0, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.010199091397225857, "tok_per_s": 50200.55023129448}, "16": {"s": 0.047427945770323277, "tok_per_s": 172725.17008581714}, "64": {"s": 0.16803468810394406, "tok_per_s": 195007.35455128254}}, "decod
+=== n_dummy=8
+Fri  9 Oct 03:25:41 BST 2026
+{"model": "inclusionAI/Ling-mini-base-2.0", "n_dummy": 8, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.014146164059638977, "tok_per_s": 36193.55733762547}, "16": {"s": 0.07014109194278717, "tok_per_s": 116793.16322423477}, "64": {"s": 0.2574435011483729, "tok_per_s": 127282.29632456233}}, "decode"
+=== n_dummy=24
+Fri  9 Oct 03:26:46 BST 2026
+{"model": "inclusionAI/Ling-mini-base-2.0", "n_dummy": 24, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.015217326115816832, "tok_per_s": 33645.85841843983}, "16": {"s": 0.1069707958959043, "tok_per_s": 76581.64951835845}, "64": {"s": 0.4247782891616225, "tok_per_s": 77141.41903220532}}, "decode": 
+=== n_dummy=56
+Fri  9 Oct 03:27:58 BST 2026
+{"model": "inclusionAI/Ling-mini-base-2.0", "n_dummy": 56, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.01996374921873212, "tok_per_s": 25646.485256365922}, "16": {"s": 0.18484931718558073, "tok_per_s": 44317.177497472636}, "64": {"s": 0.7397810630500317, "tok_per_s": 44294.18599186809}}, "decode"
+=== n_dummy=120
+Fri  9 Oct 03:29:13 BST 2026
+{"model": "inclusionAI/Ling-mini-base-2.0", "n_dummy": 120, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.03053635871037841, "tok_per_s": 16766.897613957695}, "16": {"s": 0.3446511449292302, "tok_per_s": 23768.962095518713}, "64": {"s": 1.3853449798189104, "tok_per_s": 23653.314140051505}}, "decode
+=== n_dummy=248
+Fri  9 Oct 03:30:38 BST 2026
+{"model": "inclusionAI/Ling-mini-base-2.0", "n_dummy": 248, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.05351513158529997, "tok_per_s": 9567.387481499549}, "16": {"s": 0.671885755378753, "tok_per_s": 12192.549007653892}, "64": {"s": 2.690449316985905, "tok_per_s": 12179.37828938915}}, "decode": {
+Fri  9 Oct 03:32:30 BST 2026

@@ -1,0 +1,10 @@
+
+[named-entity mention ('Darcy')] clean accuracy: 0.5700 (chance=0.50, margin=0.070)
+  sigma= 0.5: naive_acc=0.5800  adaptive_acc=0.5600  (drop from clean: +0.010)
+  sigma= 1.0: naive_acc=0.5500  adaptive_acc=0.5700  (drop from clean: +0.000)
+  sigma= 2.0: naive_acc=0.4900  adaptive_acc=0.4900  (drop from clean: +0.080)
+
+[topic keyword (wealth/estate)] clean accuracy: 0.5300 (chance=0.50, margin=0.030)
+  sigma= 0.5: naive_acc=0.4700  adaptive_acc=0.5000  (drop from clean: +0.030)
+  sigma= 1.0: naive_acc=0.5300  adaptive_acc=0.5500  (drop from clean: -0.020)
+  sigma= 2.0: naive_acc=0.5100  adaptive_acc=0.5500  (drop from clean: -0.020)

@@ -1,0 +1,12 @@
+[data] nationality pool per class: train 450, test 450
+[data] sensitive   pool per class: train 262, test 277
+[data] medical     pool per class: train 450, test 450
+[data] code        pool per class: train 450, test 450
+[granite-3.0-1b-a400m-base nationality] none transformer  58.3 ( 3.4)  meanpool  59.1 ( 3.0)
+[granite-3.0-1b-a400m-base nationality] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)
+[granite-3.0-1b-a400m-base sensitive  ] none transformer  74.7 ( 2.7)  meanpool  72.8 ( 5.6)
+[granite-3.0-1b-a400m-base sensitive  ] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)
+[granite-3.0-1b-a400m-base medical    ] none transformer  98.9 ( 0.2)  meanpool  99.1 ( 0.1)
+[granite-3.0-1b-a400m-base medical    ] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)
+[granite-3.0-1b-a400m-base code       ] none transformer  99.5 ( 0.3)  meanpool  99.0 ( 0.4)
+[granite-3.0-1b-a400m-base code       ] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)

@@ -1,0 +1,12 @@
+[project]
+name = "moe-decoy-plugin"
+version = "0.1.0"
+description = "vLLM general plugin: append zero-weight decoy experts to every token's routing (n_dummy from MOE_DECOY_ND)"
+requires-python = ">=3.10"
+
+[project.entry-points."vllm.general_plugins"]
+moe_decoy = "moe_decoy_plugin:register"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

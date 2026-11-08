@@ -1,0 +1,33 @@
+name, driver_version, memory.total [MiB]
+NVIDIA H200, 580.178.04, 143771 MiB
+=== coverage
+Fri  2 Oct 18:23:46 BST 2026
+[rank0]: Traceback (most recent call last):
+[rank0]:     raise ValueError(
+[rank0]: ValueError: Free memory on device cuda:0 (43.48/139.8 GiB) on startup is less than desired GPU memory utilization (0.85, 118.83 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+=== n_dummy=0
+Fri  2 Oct 18:27:43 BST 2026
+12:[rank0]: Traceback (most recent call last):
+51:[rank0]:     raise ValueError(
+52:[rank0]: ValueError: Free memory on device cuda:0 (43.48/139.8 GiB) on startup is less than desired GPU memory utilization (0.85, 118.83 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+=== n_dummy=8
+Fri  2 Oct 18:27:53 BST 2026
+12:[rank0]: Traceback (most recent call last):
+51:[rank0]:     raise ValueError(
+52:[rank0]: ValueError: Free memory on device cuda:0 (43.47/139.8 GiB) on startup is less than desired GPU memory utilization (0.85, 118.83 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+=== n_dummy=24
+Fri  2 Oct 18:28:04 BST 2026
+12:[rank0]: Traceback (most recent call last):
+51:[rank0]:     raise ValueError(
+52:[rank0]: ValueError: Free memory on device cuda:0 (43.47/139.8 GiB) on startup is less than desired GPU memory utilization (0.85, 118.83 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+=== n_dummy=56
+Fri  2 Oct 18:28:15 BST 2026
+12:[rank0]: Traceback (most recent call last):
+51:[rank0]:     raise ValueError(
+52:[rank0]: ValueError: Free memory on device cuda:0 (58.1/139.8 GiB) on startup is less than desired GPU memory utilization (0.85, 118.83 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+=== n_dummy=120
+Fri  2 Oct 18:28:25 BST 2026
+12:[rank0]: Traceback (most recent call last):
+51:[rank0]:     raise ValueError(
+52:[rank0]: ValueError: Free memory on device cuda:0 (108.74/139.8 GiB) on startup is less than desired GPU memory utilization (0.85, 118.83 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+Fri  2 Oct 18:28:37 BST 2026

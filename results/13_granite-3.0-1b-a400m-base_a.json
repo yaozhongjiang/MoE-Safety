@@ -1,0 +1,29 @@
+{
+ "E": 32,
+ "k": 8,
+ "L": 24,
+ "n_dummy": 12,
+ "a": {
+  "clean_repeat": {
+   "loss_ref": 2.5692272782325745,
+   "loss": 2.5692272782325745,
+   "abs_diff": 0.0,
+   "max_logit_diff": 0.0,
+   "decoys_per_token_layer": 0
+  },
+  "decoy_2x": {
+   "loss_ref": 2.5692272782325745,
+   "loss": 2.5692272782325745,
+   "abs_diff": 0.0,
+   "max_logit_diff": 0.0,
+   "decoys_per_token_layer": 8
+  },
+  "decoy_full": {
+   "loss_ref": 2.5692272782325745,
+   "loss": 2.5692272782325745,
+   "abs_diff": 0.0,
+   "max_logit_diff": 0.0,
+   "decoys_per_token_layer": 24
+  }
+ }
+}

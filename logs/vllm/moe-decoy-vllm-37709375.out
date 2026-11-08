@@ -1,0 +1,9 @@
+name, driver_version, memory.total [MiB]
+NVIDIA A100 80GB PCIe, 580.173.02, 81920 MiB
+=== allenai/OLMoE-1B-7B-0924 n_dummy=8 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd8.json
+Fri  2 Oct 01:49:46 BST 2026
+{"model": "allenai/OLMoE-1B-7B-0924", "n_dummy": 8, "gpu": "NVIDIA A100 80GB PCIe", "prefill": {"1": {"s": 0.02130277082324028, "tok_per_s": 24034.43215196368}, "16": {"s": 0.21767977601848543, "tok_per_s": 37633.26180243926}, "64": {"s": 0.8654507570900023, "tok_per_s": 37862.350609270194}}, "decod
+=== allenai/OLMoE-1B-7B-0924 n_dummy=56 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd56.json
+Fri  2 Oct 01:50:56 BST 2026
+{"model": "allenai/OLMoE-1B-7B-0924", "n_dummy": 56, "gpu": "NVIDIA A100 80GB PCIe", "prefill": {"1": {"s": 0.05337505787611008, "tok_per_s": 9592.495453371002}, "16": {"s": 0.7309784519020468, "tok_per_s": 11206.896699463518}, "64": {"s": 2.9226016220636666, "tok_per_s": 11211.928356100178}}, "deco
+Fri  2 Oct 01:52:31 BST 2026

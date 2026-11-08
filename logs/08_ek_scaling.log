@@ -1,0 +1,12 @@
+
+[checkpoints/moe_32e.pt] E=32 k=4 aggregate feature dim=128
+  overhead  1.0x (n_dummy=0): adaptive_acc=0.6800
+  overhead  1.5x (n_dummy=2): adaptive_acc=0.6400
+  overhead  2.0x (n_dummy=4): adaptive_acc=0.6200
+  overhead  3.0x (n_dummy=8): adaptive_acc=0.6100
+
+[checkpoints/moe_64e.pt] E=64 k=4 aggregate feature dim=256
+  overhead  1.5x (n_dummy=2): adaptive_acc=0.6900
+  overhead  2.0x (n_dummy=4): adaptive_acc=0.5900
+  overhead  3.0x (n_dummy=8): adaptive_acc=0.6100
+  overhead  4.5x (n_dummy=14): adaptive_acc=0.7000

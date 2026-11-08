@@ -1,0 +1,11 @@
+Forward: total epsilon as a function of per-step budget rho0 and context length T
+      rho0       T=32      T=128      T=500     T=2000     T=8000
+     1e-04      1.96      4.07      8.63     19.67     48.94
+     1e-03      6.72     14.97     35.51     95.02    286.03
+     1e-02     26.49     68.33    194.34    628.68   2217.35
+
+Reverse: required per-step Gaussian sigma (sensitivity Delta=1) to hold a target epsilon
+  target_eps       T=32      T=500     T=2000     T=8000
+           3      47.0     186.0     371.9     743.9
+           8      19.1      75.6     151.2     302.5
+          15      11.2      44.1      88.2     176.4

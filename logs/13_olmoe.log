@@ -1,0 +1,17 @@
+[OLMoE-1B-7B-0924] E=64 k=8 layers=16 device=cpu dtype=torch.bfloat16 n_dummy=12 (chance precision 0.400)
+[a] clean_repeat n_dummy= 0: loss_ref=2.55099547 loss=2.55099547 |dL|=0.00e+00 max|dlogit|=0.00e+00
+[a] decoy_2x     n_dummy= 8: loss_ref=2.55099547 loss=2.55099547 |dL|=0.00e+00 max|dlogit|=0.00e+00
+[a] decoy_full   n_dummy=56: loss_ref=2.55099547 loss=2.55099547 |dL|=0.00e+00 max|dlogit|=0.00e+00
+[b] real routing identical across 6 genuine repeats: [True, True, True, True, True]
+[b] naive : precision=0.999 recall=1.000 (5 inputs x 128 tokens)
+[b] prefix: precision=0.400 recall=1.000 (5 inputs x 128 tokens)
+[b] whole : precision=0.400 recall=1.000 (5 inputs x 128 tokens)
+[c] real routing identical over shared 40-token prefix: 1.000
+[c] prefix-keyed agreement: shared=1.000 after edit=0.000
+[c] whole-hash   agreement: shared=0.000 after edit=0.000
+[d] greedy continuation: '. She had not seen him since the night of the ball'; identical text across 16 requests: True; identical real routing: True
+[d] T= 1: fresh-nonce precision=0.400  static g=4 precision=0.290  static g=8 precision=0.178
+[d] T= 2: fresh-nonce precision=0.765  static g=4 precision=0.290  static g=8 precision=0.178
+[d] T= 4: fresh-nonce precision=0.988  static g=4 precision=0.290  static g=8 precision=0.178
+[d] T= 8: fresh-nonce precision=1.000  static g=4 precision=0.290  static g=8 precision=0.178
+[d] T=16: fresh-nonce precision=1.000  static g=4 precision=0.290  static g=8 precision=0.178

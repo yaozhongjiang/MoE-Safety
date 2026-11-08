@@ -1,0 +1,8 @@
+[d] B=   1 loss=1.5411 loss_increase=+0.0% ppl_increase=+0.0%
+[d] B=   2 loss=2.6132 loss_increase=+69.6% ppl_increase=+192.1%
+[d] B=   4 loss=3.0964 loss_increase=+100.9% ppl_increase=+373.7%
+[d] B=   8 loss=3.2981 loss_increase=+114.0% ppl_increase=+479.5%
+[d] B=  16 loss=3.4048 loss_increase=+120.9% ppl_increase=+544.7%
+[d] B=  32 loss=3.4786 loss_increase=+125.7% ppl_increase=+594.2%
+[d] B=  64 loss=3.4865 loss_increase=+126.2% ppl_increase=+599.6%
+[d] B= 128 loss=3.5543 loss_increase=+130.6% ppl_increase=+648.7%

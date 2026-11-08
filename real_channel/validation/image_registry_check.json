@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-11-07",
+  "registry": "docker.1ms.run",
+  "repository": "nvidia/cuda",
+  "tag": "12.4.1-devel-ubuntu22.04",
+  "tag_get_status": 200,
+  "index_digest": "sha256:da6791294b0b04d7e65d87b7451d6f2390b4d36225ab0701ee7dfec5769829f5",
+  "index_get_status": 200,
+  "platform": "linux/amd64",
+  "child_digest": "sha256:5645fec64549cc35930eee9d85aafd2b0006c0c3f22632be5a1d85e2604e9749",
+  "child_get_status": 200,
+  "child_layers": 11,
+  "authentication": "anonymous Bearer; one authentication timeout observed before successful retry",
+  "layers_downloaded": false,
+  "full_image_built": false
+}

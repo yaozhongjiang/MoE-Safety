@@ -1,0 +1,23 @@
+[dialogue seed=0] clean=0.730  noise0.5=0.720/0.720  noise1.0=0.730/0.630  noise2.0=0.520/0.620  decoy3=0.500/0.540  decoy6=0.500/0.500  group2=0.500/0.630  group4=0.500/0.650  group8=0.500/0.500
+[dialogue seed=1] clean=0.610  noise0.5=0.650/0.660  noise1.0=0.710/0.760  noise2.0=0.520/0.680  decoy3=0.500/0.560  decoy6=0.500/0.500  group2=0.500/0.680  group4=0.500/0.610  group8=0.500/0.500
+[dialogue seed=2] clean=0.810  noise0.5=0.680/0.690  noise1.0=0.570/0.730  noise2.0=0.500/0.590  decoy3=0.500/0.650  decoy6=0.500/0.500  group2=0.500/0.650  group4=0.500/0.530  group8=0.500/0.500
+[dialogue seed=3] clean=0.670  noise0.5=0.730/0.750  noise1.0=0.720/0.720  noise2.0=0.560/0.660  decoy3=0.500/0.600  decoy6=0.500/0.500  group2=0.500/0.580  group4=0.500/0.470  group8=0.500/0.500
+[dialogue seed=4] clean=0.770  noise0.5=0.750/0.790  noise1.0=0.670/0.770  noise2.0=0.520/0.720  decoy3=0.500/0.680  decoy6=0.500/0.500  group2=0.500/0.700  group4=0.500/0.600  group8=0.500/0.500
+[dialogue] 5-seed mean (std):
+   clean      0.718 (0.079)
+   noise0.5   naive    0.706 (0.040)
+   noise0.5   adaptive 0.722 (0.051)
+   noise1.0   naive    0.680 (0.066)
+   noise1.0   adaptive 0.722 (0.055)
+   noise2.0   naive    0.524 (0.022)
+   noise2.0   adaptive 0.654 (0.051)
+   decoy3     naive    0.500 (0.000)
+   decoy3     adaptive 0.606 (0.059)
+   decoy6     naive    0.500 (0.000)
+   decoy6     adaptive 0.500 (0.000)
+   group2     naive    0.500 (0.000)
+   group2     adaptive 0.648 (0.047)
+   group4     naive    0.500 (0.000)
+   group4     adaptive 0.572 (0.072)
+   group8     naive    0.500 (0.000)
+   group8     adaptive 0.500 (0.000)

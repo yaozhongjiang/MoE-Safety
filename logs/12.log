@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 11839.95it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (47900 > 1024). Running this sequence through the model will result in indexing errors
+targets: [',', '.', ' the', ' to', ' of', ' and', '�', '�', ' �', '�']; train positions 10977, test positions 1229
+majority baseline: 0.2303
+clean trace decoder accuracy: 0.9634
+p=0.2 corruption: naive decoder 0.7453, adaptive decoder 0.8291

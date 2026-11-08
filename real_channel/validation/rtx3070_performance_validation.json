@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-01",
+  "environment": {
+    "os": "macOS arm64 CPU",
+    "python_test_executable": "/home/user/miniconda3/bin/python3",
+    "torch": "2.11.0",
+    "transformers": "5.5.0",
+    "target_gpu_available": false
+  },
+  "checks": [
+    {
+      "round": 1,
+      "scope": "new performance tool + existing recovery/driver diagnostics",
+      "passed": 40,
+      "seconds": 0.6
+    },
+    {
+      "round": 2,
+      "scope": "unchanged original core suite",
+      "passed": 86,
+      "seconds": 13.23
+    },
+    {
+      "round": 3,
+      "scope": "clean extraction of v4 ZIP + supplemental ZIP, entire core + new/recovery/driver suites",
+      "passed": 126,
+      "seconds": 12.75,
+      "log": "validation/rtx3070_performance_round3.log"
+    }
+  ],
+  "core_fingerprint_before_and_after": "83bf6a5cab9f49243ffbbd4a07b78141d76fa63583ae3a6a2d6ac5b81d2c4e54",
+  "archive_layout": "validation/* directly; no real_channel directory",
+  "measurements": "No RTX3070/WSL performance, GPU peak VRAM or profiler peak RAM measured on development host. Run tune on target for wall-clock measurements."
+}

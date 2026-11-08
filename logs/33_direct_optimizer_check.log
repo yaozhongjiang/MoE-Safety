@@ -1,0 +1,8 @@
+1
+[data] sensitive   pool per class: train 261, test 283
+[data] medical     pool per class: train 450, test 450
+[data] code        pool per class: train 450, test 450
+G=8: train-linear acc 1.00->1.00; MLP test acc 100.0% overhead 68%
+G=16: train-linear acc 1.00->1.00; MLP test acc 99.7% overhead 43%
+
+[exited with code 0]

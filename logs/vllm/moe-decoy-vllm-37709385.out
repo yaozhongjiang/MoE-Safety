@@ -1,0 +1,15 @@
+name, driver_version, memory.total [MiB]
+NVIDIA A100 80GB PCIe, 580.173.02, 81920 MiB
+=== allenai/OLMoE-1B-7B-0924 n_dummy=24 -> results/21_NVIDIAA10080GBPCIe_OLMoE-1B-7B-0924_nd24.json
+Fri  2 Oct 01:53:50 BST 2026
+{"model": "allenai/OLMoE-1B-7B-0924", "n_dummy": 24, "gpu": "NVIDIA A100 80GB PCIe", "prefill": {"1": {"s": 0.032537913881242275, "tok_per_s": 15735.489431458665}, "16": {"s": 0.39099002396687865, "tok_per_s": 20951.94122061272}, "64": {"s": 1.5549497951287776, "tok_per_s": 21073.349186355066}}, "de
+=== ibm-granite/granite-3.0-1b-a400m-base n_dummy=0 -> results/21_NVIDIAA10080GBPCIe_granite-3.0-1b-a400m-base_nd0.json
+Fri  2 Oct 01:55:08 BST 2026
+{"model": "ibm-granite/granite-3.0-1b-a400m-base", "n_dummy": 0, "gpu": "NVIDIA A100 80GB PCIe", "prefill": {"1": {"s": 0.007659431081265211, "tok_per_s": 66845.69579225538}, "16": {"s": 0.06356567400507629, "tok_per_s": 128874.58723942415}, "64": {"s": 0.23837364208884537, "tok_per_s": 137464.86277
+=== ibm-granite/granite-3.0-1b-a400m-base n_dummy=8 -> results/21_NVIDIAA10080GBPCIe_granite-3.0-1b-a400m-base_nd8.json
+Fri  2 Oct 01:56:51 BST 2026
+{"model": "ibm-granite/granite-3.0-1b-a400m-base", "n_dummy": 8, "gpu": "NVIDIA A100 80GB PCIe", "prefill": {"1": {"s": 0.011458519147709012, "tok_per_s": 44682.9117619765}, "16": {"s": 0.10415870603173971, "tok_per_s": 78649.21053746287}, "64": {"s": 0.4025668629910797, "tok_per_s": 81397.658407681
+=== ibm-granite/granite-3.0-1b-a400m-base n_dummy=24 -> results/21_NVIDIAA10080GBPCIe_granite-3.0-1b-a400m-base_nd24.json
+Fri  2 Oct 01:57:38 BST 2026
+{"model": "ibm-granite/granite-3.0-1b-a400m-base", "n_dummy": 24, "gpu": "NVIDIA A100 80GB PCIe", "prefill": {"1": {"s": 0.015877853147685528, "tok_per_s": 32246.173033451494}, "16": {"s": 0.1807964260224253, "tok_per_s": 45310.63019455869}, "64": {"s": 0.7081845921929926, "tok_per_s": 46270.4220922
+Fri  2 Oct 01:58:29 BST 2026

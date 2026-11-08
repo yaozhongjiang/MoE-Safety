@@ -1,0 +1,84 @@
+[a] checkpoints/moe_32e.pt seed=0 1.0x n_dummy=0: adaptive=0.767
+[a] checkpoints/moe_32e.pt seed=0 1.5x n_dummy=2: adaptive=0.717
+[a] checkpoints/moe_32e.pt seed=0 2.0x n_dummy=4: adaptive=0.683
+[a] checkpoints/moe_32e.pt seed=0 3.0x n_dummy=8: adaptive=0.647
+[a] checkpoints/moe_32e.pt seed=0 4.5x n_dummy=14: adaptive=0.583
+[a] checkpoints/moe_32e.pt seed=0 6.0x n_dummy=20: adaptive=0.550
+[a] checkpoints/moe_32e.pt seed=0 8.0x n_dummy=28: adaptive=0.500
+[a] checkpoints/moe_32e.pt seed=1 1.0x n_dummy=0: adaptive=0.723
+[a] checkpoints/moe_32e.pt seed=1 1.5x n_dummy=2: adaptive=0.620
+[a] checkpoints/moe_32e.pt seed=1 2.0x n_dummy=4: adaptive=0.573
+[a] checkpoints/moe_32e.pt seed=1 3.0x n_dummy=8: adaptive=0.587
+[a] checkpoints/moe_32e.pt seed=1 4.5x n_dummy=14: adaptive=0.550
+[a] checkpoints/moe_32e.pt seed=1 6.0x n_dummy=20: adaptive=0.567
+[a] checkpoints/moe_32e.pt seed=1 8.0x n_dummy=28: adaptive=0.500
+[a] checkpoints/moe_32e.pt seed=2 1.0x n_dummy=0: adaptive=0.663
+[a] checkpoints/moe_32e.pt seed=2 1.5x n_dummy=2: adaptive=0.657
+[a] checkpoints/moe_32e.pt seed=2 2.0x n_dummy=4: adaptive=0.660
+[a] checkpoints/moe_32e.pt seed=2 3.0x n_dummy=8: adaptive=0.587
+[a] checkpoints/moe_32e.pt seed=2 4.5x n_dummy=14: adaptive=0.573
+[a] checkpoints/moe_32e.pt seed=2 6.0x n_dummy=20: adaptive=0.487
+[a] checkpoints/moe_32e.pt seed=2 8.0x n_dummy=28: adaptive=0.500
+[a] checkpoints/moe_32e.pt seed=3 1.0x n_dummy=0: adaptive=0.703
+[a] checkpoints/moe_32e.pt seed=3 1.5x n_dummy=2: adaptive=0.673
+[a] checkpoints/moe_32e.pt seed=3 2.0x n_dummy=4: adaptive=0.640
+[a] checkpoints/moe_32e.pt seed=3 3.0x n_dummy=8: adaptive=0.583
+[a] checkpoints/moe_32e.pt seed=3 4.5x n_dummy=14: adaptive=0.533
+[a] checkpoints/moe_32e.pt seed=3 6.0x n_dummy=20: adaptive=0.507
+[a] checkpoints/moe_32e.pt seed=3 8.0x n_dummy=28: adaptive=0.500
+[a] checkpoints/moe_32e.pt seed=4 1.0x n_dummy=0: adaptive=0.727
+[a] checkpoints/moe_32e.pt seed=4 1.5x n_dummy=2: adaptive=0.707
+[a] checkpoints/moe_32e.pt seed=4 2.0x n_dummy=4: adaptive=0.690
+[a] checkpoints/moe_32e.pt seed=4 3.0x n_dummy=8: adaptive=0.600
+[a] checkpoints/moe_32e.pt seed=4 4.5x n_dummy=14: adaptive=0.583
+[a] checkpoints/moe_32e.pt seed=4 6.0x n_dummy=20: adaptive=0.583
+[a] checkpoints/moe_32e.pt seed=4 8.0x n_dummy=28: adaptive=0.500
+[a] checkpoints/moe_32e.pt 1.0x: seed0=0.767 mean=0.717 std=0.038 all=[0.7666666507720947, 0.7233333587646484, 0.6633333563804626, 0.70333331823349, 0.7266666889190674]
+[a] checkpoints/moe_32e.pt 1.5x: seed0=0.717 mean=0.675 std=0.039 all=[0.7166666388511658, 0.6200000047683716, 0.6566666960716248, 0.6733333468437195, 0.7066666483879089]
+[a] checkpoints/moe_32e.pt 2.0x: seed0=0.683 mean=0.649 std=0.047 all=[0.6833333373069763, 0.5733333230018616, 0.6600000262260437, 0.6399999856948853, 0.6899999976158142]
+[a] checkpoints/moe_32e.pt 3.0x: seed0=0.647 mean=0.601 std=0.026 all=[0.6466666460037231, 0.5866666436195374, 0.5866666436195374, 0.5833333134651184, 0.6000000238418579]
+[a] checkpoints/moe_32e.pt 4.5x: seed0=0.583 mean=0.565 std=0.022 all=[0.5833333134651184, 0.550000011920929, 0.5733333230018616, 0.5333333611488342, 0.5833333134651184]
+[a] checkpoints/moe_32e.pt 6.0x: seed0=0.550 mean=0.539 std=0.041 all=[0.550000011920929, 0.5666666626930237, 0.4866666793823242, 0.5066666603088379, 0.5833333134651184]
+[a] checkpoints/moe_32e.pt 8.0x: seed0=0.500 mean=0.500 std=0.000 all=[0.5, 0.5, 0.5, 0.5, 0.5]
+[a] checkpoints/moe_64e.pt seed=0 1.0x n_dummy=0: adaptive=0.787
+[a] checkpoints/moe_64e.pt seed=0 1.5x n_dummy=2: adaptive=0.693
+[a] checkpoints/moe_64e.pt seed=0 2.0x n_dummy=4: adaptive=0.703
+[a] checkpoints/moe_64e.pt seed=0 3.0x n_dummy=8: adaptive=0.720
+[a] checkpoints/moe_64e.pt seed=0 4.5x n_dummy=14: adaptive=0.720
+[a] checkpoints/moe_64e.pt seed=0 6.0x n_dummy=20: adaptive=0.620
+[a] checkpoints/moe_64e.pt seed=0 8.0x n_dummy=28: adaptive=0.637
+[a] checkpoints/moe_64e.pt seed=1 1.0x n_dummy=0: adaptive=0.753
+[a] checkpoints/moe_64e.pt seed=1 1.5x n_dummy=2: adaptive=0.687
+[a] checkpoints/moe_64e.pt seed=1 2.0x n_dummy=4: adaptive=0.633
+[a] checkpoints/moe_64e.pt seed=1 3.0x n_dummy=8: adaptive=0.643
+[a] checkpoints/moe_64e.pt seed=1 4.5x n_dummy=14: adaptive=0.613
+[a] checkpoints/moe_64e.pt seed=1 6.0x n_dummy=20: adaptive=0.643
+[a] checkpoints/moe_64e.pt seed=1 8.0x n_dummy=28: adaptive=0.590
+[a] checkpoints/moe_64e.pt seed=2 1.0x n_dummy=0: adaptive=0.763
+[a] checkpoints/moe_64e.pt seed=2 1.5x n_dummy=2: adaptive=0.623
+[a] checkpoints/moe_64e.pt seed=2 2.0x n_dummy=4: adaptive=0.527
+[a] checkpoints/moe_64e.pt seed=2 3.0x n_dummy=8: adaptive=0.537
+[a] checkpoints/moe_64e.pt seed=2 4.5x n_dummy=14: adaptive=0.590
+[a] checkpoints/moe_64e.pt seed=2 6.0x n_dummy=20: adaptive=0.530
+[a] checkpoints/moe_64e.pt seed=2 8.0x n_dummy=28: adaptive=0.520
+[a] checkpoints/moe_64e.pt seed=3 1.0x n_dummy=0: adaptive=0.687
+[a] checkpoints/moe_64e.pt seed=3 1.5x n_dummy=2: adaptive=0.687
+[a] checkpoints/moe_64e.pt seed=3 2.0x n_dummy=4: adaptive=0.660
+[a] checkpoints/moe_64e.pt seed=3 3.0x n_dummy=8: adaptive=0.643
+[a] checkpoints/moe_64e.pt seed=3 4.5x n_dummy=14: adaptive=0.593
+[a] checkpoints/moe_64e.pt seed=3 6.0x n_dummy=20: adaptive=0.533
+[a] checkpoints/moe_64e.pt seed=3 8.0x n_dummy=28: adaptive=0.587
+[a] checkpoints/moe_64e.pt seed=4 1.0x n_dummy=0: adaptive=0.753
+[a] checkpoints/moe_64e.pt seed=4 1.5x n_dummy=2: adaptive=0.687
+[a] checkpoints/moe_64e.pt seed=4 2.0x n_dummy=4: adaptive=0.650
+[a] checkpoints/moe_64e.pt seed=4 3.0x n_dummy=8: adaptive=0.647
+[a] checkpoints/moe_64e.pt seed=4 4.5x n_dummy=14: adaptive=0.610
+[a] checkpoints/moe_64e.pt seed=4 6.0x n_dummy=20: adaptive=0.567
+[a] checkpoints/moe_64e.pt seed=4 8.0x n_dummy=28: adaptive=0.657
+[a] checkpoints/moe_64e.pt 1.0x: seed0=0.787 mean=0.749 std=0.037 all=[0.7866666913032532, 0.753333330154419, 0.7633333206176758, 0.6866666674613953, 0.753333330154419]
+[a] checkpoints/moe_64e.pt 1.5x: seed0=0.693 mean=0.675 std=0.029 all=[0.6933333277702332, 0.6866666674613953, 0.6233333349227905, 0.6866666674613953, 0.6866666674613953]
+[a] checkpoints/moe_64e.pt 2.0x: seed0=0.703 mean=0.635 std=0.066 all=[0.70333331823349, 0.6333333253860474, 0.5266666412353516, 0.6600000262260437, 0.6499999761581421]
+[a] checkpoints/moe_64e.pt 3.0x: seed0=0.720 mean=0.638 std=0.065 all=[0.7200000286102295, 0.6433333158493042, 0.5366666913032532, 0.6433333158493042, 0.6466666460037231]
+[a] checkpoints/moe_64e.pt 4.5x: seed0=0.720 mean=0.625 std=0.054 all=[0.7200000286102295, 0.6133333444595337, 0.5899999737739563, 0.5933333039283752, 0.6100000143051147]
+[a] checkpoints/moe_64e.pt 6.0x: seed0=0.620 mean=0.579 std=0.051 all=[0.6200000047683716, 0.6433333158493042, 0.5299999713897705, 0.5333333611488342, 0.5666666626930237]
+[a] checkpoints/moe_64e.pt 8.0x: seed0=0.637 mean=0.598 std=0.053 all=[0.6366666555404663, 0.5899999737739563, 0.5199999809265137, 0.5866666436195374, 0.6566666960716248]

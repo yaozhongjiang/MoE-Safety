@@ -1,0 +1,8 @@
+training moe_mixed: n_experts=8 topk=2 steps=300 (mixed corpus)
+step    0 loss 4.733
+step  100 loss 2.419
+step  200 loss 2.192
+step  299 loss 1.896
+moe_mixed held-out val loss 1.9612 (ppl 7.11)
+saved checkpoints/moe_mixed.pt
+

@@ -1,0 +1,18 @@
+name, driver_version, memory.total [MiB]
+NVIDIA H200, 580.173.02, 143771 MiB
+=== allenai/OLMoE-1B-7B-0924 n_dummy=8 -> results/21_NVIDIAH200_OLMoE-1B-7B-0924_nd8.json
+Fri  2 Oct 03:26:36 BST 2026
+{"model": "allenai/OLMoE-1B-7B-0924", "n_dummy": 8, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.010286740958690643, "tok_per_s": 49772.80968346367}, "16": {"s": 0.07922718487679958, "tok_per_s": 103398.85246129573}, "64": {"s": 0.3132433539722115, "tok_per_s": 104608.76371189322}}, "decode": {"1"
+=== allenai/OLMoE-1B-7B-0924 n_dummy=24 -> results/21_NVIDIAH200_OLMoE-1B-7B-0924_nd24.json
+Fri  2 Oct 03:27:24 BST 2026
+{"model": "allenai/OLMoE-1B-7B-0924", "n_dummy": 24, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.01409358880482614, "tok_per_s": 36328.575147919255}, "16": {"s": 0.13974705105647445, "tok_per_s": 58620.19941078726}, "64": {"s": 0.5576400528661907, "tok_per_s": 58761.91968560567}}, "decode": {"1":
+=== ibm-granite/granite-3.0-1b-a400m-base n_dummy=0 -> results/21_NVIDIAH200_granite-3.0-1b-a400m-base_nd0.json
+Fri  2 Oct 03:28:15 BST 2026
+{"model": "ibm-granite/granite-3.0-1b-a400m-base", "n_dummy": 0, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.005705276038497686, "tok_per_s": 89741.49481027036}, "16": {"s": 0.02838231110945344, "tok_per_s": 288630.47721548827}, "64": {"s": 0.09576840396039188, "tok_per_s": 342158.7772680462}}, "
+=== ibm-granite/granite-3.0-1b-a400m-base n_dummy=8 -> results/21_NVIDIAH200_granite-3.0-1b-a400m-base_nd8.json
+Fri  2 Oct 03:29:45 BST 2026
+{"model": "ibm-granite/granite-3.0-1b-a400m-base", "n_dummy": 8, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.007059955969452858, "tok_per_s": 72521.6987493025}, "16": {"s": 0.04252811195328832, "tok_per_s": 192625.52753336105}, "64": {"s": 0.15289693814702332, "tok_per_s": 214314.2982267624}}, "d
+=== ibm-granite/granite-3.0-1b-a400m-base n_dummy=24 -> results/21_NVIDIAH200_granite-3.0-1b-a400m-base_nd24.json
+Fri  2 Oct 03:30:47 BST 2026
+{"model": "ibm-granite/granite-3.0-1b-a400m-base", "n_dummy": 24, "gpu": "NVIDIA H200", "prefill": {"1": {"s": 0.008846265031024814, "tok_per_s": 57877.53342279033}, "16": {"s": 0.06860043294727802, "tok_per_s": 119416.15596356157}, "64": {"s": 0.266271925996989, "tok_per_s": 123062.16615705307}}, "
+Fri  2 Oct 03:31:29 BST 2026

@@ -1,0 +1,9 @@
+Script 26: vLLM expert-parallel (TP=2, EP) cost, Qwen3-30B-A3B-Base; ratio vs n_dummy=0
+NVIDIAH200x2
+  n_dummy=  0 prefill16:1.00x prefill64:1.00x | decode1:4.3ms(1.00x) decode8:5.8ms(1.00x) decode32:7.4ms(1.00x) decode128:9.9ms(1.00x) | outputs identical: True
+  n_dummy= 24 prefill16:2.21x prefill64:2.35x | decode1:6.9ms(1.60x) decode8:11.4ms(1.97x) decode32:12.7ms(1.72x) decode128:14.9ms(1.50x) | outputs identical: True
+  n_dummy=120 prefill16:7.11x prefill64:7.94x | decode1:13.4ms(3.10x) decode8:13.6ms(2.34x) decode32:17.4ms(2.36x) decode128:21.2ms(2.14x) | outputs identical: True
+NVIDIAH100NVLx2
+  n_dummy=  0 prefill16:1.00x prefill64:1.00x | decode1:4.9ms(1.00x) decode8:6.9ms(1.00x) decode32:8.8ms(1.00x) decode128:13.1ms(1.00x) | outputs identical: True
+  n_dummy= 24 prefill16:1.82x prefill64:1.84x | decode1:8.7ms(1.77x) decode8:14.1ms(2.06x) decode32:16.0ms(1.81x) decode128:20.0ms(1.53x) | outputs identical: True
+  n_dummy=120 prefill16:4.93x prefill64:5.25x | decode1:15.6ms(3.17x) decode8:16.6ms(2.42x) decode32:22.1ms(2.50x) decode128:32.5ms(2.48x) | outputs identical: True

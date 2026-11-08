@@ -1,0 +1,7 @@
+training moe_32e: n_experts=32 topk=4 steps=180
+step    0 loss 4.638
+step  100 loss 2.385
+step  179 loss 2.203
+moe_32e held-out val loss 2.1748 (ppl 8.80)
+saved checkpoints/moe_32e.pt
+

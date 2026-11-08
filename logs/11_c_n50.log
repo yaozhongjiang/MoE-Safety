@@ -1,0 +1,23 @@
+[c] flagged fraction (proper): 0.0466
+[c] flagged fraction (broad): 0.2672
+[c] uniform1: val loss 1.6042 (+4.1%), entity adaptive acc mean=0.624 std=0.078
+[c] target3.0_proper: val loss 1.6065 (+4.2%), entity adaptive acc mean=0.576 std=0.052
+[c]   repeated-query (6 repeats), unstable in >=1 layers: acc=0.402 precision=0.079 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=2 layers: acc=0.790 precision=0.197 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=3 layers: acc=0.959 precision=0.556 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=4 layers: acc=0.996 precision=0.924 recall=1.000
+[c] target3.0_broad: val loss 1.7830 (+15.7%), entity adaptive acc mean=0.564 std=0.036
+[c]   repeated-query (6 repeats), unstable in >=1 layers: acc=0.499 precision=0.340 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=2 layers: acc=0.790 precision=0.552 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=3 layers: acc=0.947 precision=0.829 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=4 layers: acc=0.993 precision=0.973 recall=1.000
+[c] target8.0_proper: val loss 1.6521 (+7.2%), entity adaptive acc mean=0.586 std=0.043
+[c]   repeated-query (6 repeats), unstable in >=1 layers: acc=0.401 precision=0.079 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=2 layers: acc=0.791 precision=0.198 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=3 layers: acc=0.958 precision=0.550 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=4 layers: acc=0.994 precision=0.899 recall=1.000
+[c] target8.0_broad: val loss 1.9479 (+26.4%), entity adaptive acc mean=0.564 std=0.028
+[c]   repeated-query (6 repeats), unstable in >=1 layers: acc=0.488 precision=0.335 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=2 layers: acc=0.776 precision=0.535 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=3 layers: acc=0.938 precision=0.805 recall=1.000
+[c]   repeated-query (6 repeats), unstable in >=4 layers: acc=0.992 precision=0.969 recall=1.000

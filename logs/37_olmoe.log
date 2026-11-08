@@ -1,0 +1,12 @@
+[data] nationality pool per class: train 450, test 450
+[data] sensitive   pool per class: train 261, test 283
+[data] medical     pool per class: train 450, test 450
+[data] code        pool per class: train 450, test 450
+[OLMoE-1B-7B-0924 nationality] none transformer  64.9 ( 2.7)  meanpool  68.0 ( 1.8)
+[OLMoE-1B-7B-0924 nationality] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)
+[OLMoE-1B-7B-0924 sensitive  ] none transformer  80.3 ( 0.8)  meanpool  79.7 ( 1.5)
+[OLMoE-1B-7B-0924 sensitive  ] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)
+[OLMoE-1B-7B-0924 medical    ] none transformer  98.7 ( 0.6)  meanpool  99.0 ( 0.6)
+[OLMoE-1B-7B-0924 medical    ] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)
+[OLMoE-1B-7B-0924 code       ] none transformer  99.7 ( 0.3)  meanpool  99.6 ( 0.4)
+[OLMoE-1B-7B-0924 code       ] full transformer  50.0 ( 0.0)  meanpool  50.0 ( 0.0)

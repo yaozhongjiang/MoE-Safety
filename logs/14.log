@@ -1,0 +1,54 @@
+Theorem 2: per-decision TV bound delta(E,k,m,r)
+  E= 8 k=2 m= 5 r=1: closed-form 0.5000  enumeration 0.5000  PRF Monte-Carlo 0.5058
+  E= 8 k=2 m= 5 r=2: closed-form 0.8000  enumeration 0.8000  PRF Monte-Carlo 0.8050
+  E= 8 k=2 m= 8 r=1: closed-form 0.0000  enumeration 0.0000  PRF Monte-Carlo 0.0000
+  E= 8 k=2 m= 8 r=2: closed-form 0.0000  enumeration 0.0000  PRF Monte-Carlo 0.0000
+  E=32 k=4 m=12 r=1: closed-form 0.7143  enumeration nan  PRF Monte-Carlo 0.7114
+  E=32 k=4 m=12 r=2: closed-form 0.9259  enumeration nan  PRF Monte-Carlo 0.9282
+  E=32 k=4 m=12 r=3: closed-form 0.9829  enumeration nan  PRF Monte-Carlo 0.9838
+  E=32 k=4 m=12 r=4: closed-form 0.9966  enumeration nan  PRF Monte-Carlo 0.9972
+  E=64 k=8 m=20 r=1: closed-form 0.7857  enumeration nan  PRF Monte-Carlo 0.7908
+  E=64 k=8 m=20 r=2: closed-form 0.9571  enumeration nan  PRF Monte-Carlo 0.9582
+  E=64 k=8 m=20 r=3: closed-form 0.9921  enumeration nan  PRF Monte-Carlo 0.9926
+  E=64 k=8 m=20 r=4: closed-form 0.9987  enumeration nan  PRF Monte-Carlo 0.9988
+  E=64 k=8 m=20 r=5: closed-form 0.9998  enumeration nan  PRF Monte-Carlo 0.9996
+  E=64 k=8 m=20 r=6: closed-form 1.0000  enumeration nan  PRF Monte-Carlo 1.0000
+  E=64 k=8 m=20 r=7: closed-form 1.0000  enumeration nan  PRF Monte-Carlo 1.0000
+  E=64 k=8 m=20 r=8: closed-form 1.0000  enumeration nan  PRF Monte-Carlo 1.0000
+  E=32 k=8 m=20 r=1: closed-form 0.5000  enumeration nan  PRF Monte-Carlo 0.4906
+  E=32 k=8 m=20 r=2: closed-form 0.7609  enumeration nan  PRF Monte-Carlo 0.7574
+  E=32 k=8 m=20 r=3: closed-form 0.8913  enumeration nan  PRF Monte-Carlo 0.8914
+  E=32 k=8 m=20 r=4: closed-form 0.9534  enumeration nan  PRF Monte-Carlo 0.9526
+  E=32 k=8 m=20 r=5: closed-form 0.9814  enumeration nan  PRF Monte-Carlo 0.9810
+  E=32 k=8 m=20 r=6: closed-form 0.9931  enumeration nan  PRF Monte-Carlo 0.9934
+  E=32 k=8 m=20 r=7: closed-form 0.9977  enumeration nan  PRF Monte-Carlo 0.9974
+  E=32 k=8 m=20 r=8: closed-form 0.9993  enumeration nan  PRF Monte-Carlo 0.9990
+
+Proposition 1: fresh-nonce intersection precision k/(k+(E-k)p^T)
+  8-expert p=0.500: T=1:0.400  T=2:0.571  T=4:0.842  T=8:0.988  T=16:1.000
+  OLMoE    p=0.214: T=1:0.400  T=2:0.757  T=4:0.985  T=8:1.000  T=16:1.000
+  Granite  p=0.500: T=1:0.400  T=2:0.571  T=4:0.842  T=8:0.988  T=16:1.000
+  measured (8-expert, paper Table 5): T=1:0.400  T=2:0.593  T=4:0.873  T=8:0.990  T=16:1.000
+
+Proposition 2: worst-case TV of random non-uniform mechanisms vs uniform decoys
+  E=6 k=2 m=4 r=1: uniform delta 0.5000; smallest worst-case TV over 300 random mechanisms 0.7093  (OK)
+  E=6 k=2 m=3 r=1: uniform delta 0.7500; smallest worst-case TV over 300 random mechanisms 0.8670  (OK)
+  E=7 k=2 m=4 r=2: uniform delta 0.9000; smallest worst-case TV over 300 random mechanisms 0.9700  (OK)
+  E=8 k=2 m=5 r=1: uniform delta 0.5000; smallest worst-case TV over 300 random mechanisms 0.6941  (OK)
+
+Theorem 4: coverage lower bound on random variable-size mechanisms
+  E=6 k=2: 3000 (mechanism, R) checks, min(TV - bound) = 0.0384 (OK); uniform decoys attain equality: True
+  E=7 k=2: 4200 (mechanism, R) checks, min(TV - bound) = 0.0592 (OK); uniform decoys attain equality: True
+  E=8 k=2: 5600 (mechanism, R) checks, min(TV - bound) = 0.1643 (OK); uniform decoys attain equality: True
+  E=8 k=3: 11200 (mechanism, R) checks, min(TV - bound) = 0.0891 (OK); uniform decoys attain equality: True
+
+Theorem 5: request-level bound, exact enumeration over product mechanisms
+  E=6 k=2 s=2: min(TV - bound) over 150 random product mechanisms = 0.0016 (OK); uniform decoys m=4: 1-q^s = 0.7500
+  E=6 k=2 s=3: min(TV - bound) over 150 random product mechanisms = 0.0008 (OK); uniform decoys m=4: 1-q^s = 0.8750
+  E=7 k=2 s=2: min(TV - bound) over 150 random product mechanisms = 0.0137 (OK); uniform decoys m=4: 1-q^s = 0.8400
+  implied minimum expert-FLOP ratio eps + (1-eps)E/k at eps = 0.1, 0.01:
+    Granite        E/k=  4.0:   3.7x    4.0x
+    OLMoE          E/k=  8.0:   7.3x    7.9x
+    Qwen3-30B-A3B  E/k= 16.0:  14.5x   15.8x
+    DeepSeek-V3    E/k= 32.0:  28.9x   31.7x
+    Mixtral        E/k=  4.0:   3.7x    4.0x

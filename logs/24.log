@@ -1,0 +1,18 @@
+[OLMoE-1B-7B-0924] predicted (Gaussian LDA, Phi(d_B/2)) vs measured adaptive accuracy (%), batch observer
+  nationality B=1: d=5.43 pred  99.7 meas  69.2  B=4: d=1.07 pred  70.3 meas  51.7  B=16: d=0.48 pred  59.6 meas  53.1  B=64: d=0.24 pred  54.7 meas  51.1
+  sensitive   B=1: d=8.58 pred 100.0 meas  79.7  B=4: d=1.13 pred  71.4 meas  60.3  B=16: d=0.51 pred  60.0 meas  55.2  B=64: d=0.25 pred  54.9 meas  49.1
+  medical     B=1: d=20.65 pred 100.0 meas  99.0  B=4: d=1.16 pred  71.8 meas  65.3  B=16: d=0.52 pred  60.2 meas  55.6  B=64: d=0.25 pred  55.0 meas  50.5
+  code        B=1: d=17.71 pred 100.0 meas  99.6  B=4: d=1.15 pred  71.7 meas  64.3  B=16: d=0.52 pred  60.2 meas  55.2  B=64: d=0.25 pred  55.0 meas  50.5
+[OLMoE-1B-7B-0924] Theorem 6 bound vs measured (max over tasks), pi = 1/2
+  B= 4: bound 68.75%  exact Bayes (deterministic traces) 68.75%  max measured  65.3%  OK
+  B=16: bound 59.82%  exact Bayes (deterministic traces) 59.82%  max measured  55.6%  OK
+  B=64: bound 54.97%  exact Bayes (deterministic traces) 54.97%  max measured  51.1%  OK
+[granite-3.0-1b-a400m-base] predicted (Gaussian LDA, Phi(d_B/2)) vs measured adaptive accuracy (%), batch observer
+  nationality B=1: d=4.11 pred  98.0 meas  60.7  B=4: d=1.01 pred  69.3 meas  52.8  B=16: d=0.46 pred  59.2 meas  51.7  B=64: d=0.23 pred  54.5 meas  50.2
+  sensitive   B=1: d=6.17 pred  99.9 meas  76.4  B=4: d=1.09 pred  70.8 meas  60.1  B=16: d=0.50 pred  59.8 meas  53.5  B=64: d=0.24 pred  54.8 meas  49.4
+  medical     B=1: d=14.20 pred 100.0 meas  99.2  B=4: d=1.15 pred  71.7 meas  66.6  B=16: d=0.51 pred  60.1 meas  53.9  B=64: d=0.25 pred  55.0 meas  52.3
+  code        B=1: d=15.26 pred 100.0 meas  99.2  B=4: d=1.15 pred  71.7 meas  66.2  B=16: d=0.51 pred  60.1 meas  57.2  B=64: d=0.25 pred  55.0 meas  51.5
+[granite-3.0-1b-a400m-base] Theorem 6 bound vs measured (max over tasks), pi = 1/2
+  B= 4: bound 68.75%  exact Bayes (deterministic traces) 68.75%  max measured  66.6%  OK
+  B=16: bound 59.82%  exact Bayes (deterministic traces) 59.82%  max measured  57.2%  OK
+  B=64: bound 54.97%  exact Bayes (deterministic traces) 54.97%  max measured  52.3%  OK

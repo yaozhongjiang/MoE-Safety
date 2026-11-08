@@ -1,0 +1,32 @@
+[data] nationality pool per class: train 450, test 450
+[data] sensitive   pool per class: train 262, test 277
+[data] medical     pool per class: train 450, test 450
+[data] code        pool per class: train 450, test 450
+  generated 64/6167
+  generated 1088/6167
+  generated 2112/6167
+  generated 3136/6167
+  generated 4160/6167
+  generated 5184/6167
+  generated 6167/6167
+[granite-3.0-1b-a400m-base] decode routing for 6167 prompts x 32 steps in 330s
+[granite-3.0-1b-a400m-base nationality] decode none     meanpool  58.1 ( 2.9)  deepsets  57.9 ( 3.7)
+[granite-3.0-1b-a400m-base nationality] decode decoy12  meanpool  52.3 ( 3.0)  deepsets  51.9 ( 1.9)
+[granite-3.0-1b-a400m-base nationality] decode group8   meanpool  52.7 ( 2.4)  deepsets  54.0 ( 0.7)
+[granite-3.0-1b-a400m-base nationality] decode group16  meanpool  51.7 ( 1.5)  deepsets  52.5 ( 2.4)
+[granite-3.0-1b-a400m-base nationality] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)
+[granite-3.0-1b-a400m-base sensitive  ] decode none     meanpool  75.5 ( 1.6)  deepsets  77.6 ( 0.5)
+[granite-3.0-1b-a400m-base sensitive  ] decode decoy12  meanpool  75.7 ( 2.8)  deepsets  76.6 ( 0.8)
+[granite-3.0-1b-a400m-base sensitive  ] decode group8   meanpool  69.5 ( 4.7)  deepsets  71.1 ( 3.6)
+[granite-3.0-1b-a400m-base sensitive  ] decode group16  meanpool  50.8 ( 1.4)  deepsets  51.3 ( 1.5)
+[granite-3.0-1b-a400m-base sensitive  ] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)
+[granite-3.0-1b-a400m-base medical    ] decode none     meanpool  98.5 ( 0.6)  deepsets  98.8 ( 0.3)
+[granite-3.0-1b-a400m-base medical    ] decode decoy12  meanpool  97.2 ( 1.2)  deepsets  97.3 ( 1.1)
+[granite-3.0-1b-a400m-base medical    ] decode group8   meanpool  94.5 ( 1.2)  deepsets  89.5 ( 9.8)
+[granite-3.0-1b-a400m-base medical    ] decode group16  meanpool  58.5 ( 8.5)  deepsets  51.7 ( 3.9)
+[granite-3.0-1b-a400m-base medical    ] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)
+[granite-3.0-1b-a400m-base code       ] decode none     meanpool  97.6 ( 1.1)  deepsets  98.2 ( 0.4)
+[granite-3.0-1b-a400m-base code       ] decode decoy12  meanpool  95.4 ( 6.9)  deepsets  98.3 ( 0.6)
+[granite-3.0-1b-a400m-base code       ] decode group8   meanpool  97.9 ( 1.0)  deepsets  81.9 (16.4)
+[granite-3.0-1b-a400m-base code       ] decode group16  meanpool  56.7 ( 7.7)  deepsets  56.3 ( 7.8)
+[granite-3.0-1b-a400m-base code       ] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)

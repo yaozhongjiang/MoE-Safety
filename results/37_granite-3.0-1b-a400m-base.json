@@ -1,0 +1,63 @@
+{
+ "E": 32,
+ "K": 8,
+ "L": 24,
+ "tasks": {
+  "nationality": {
+   "none": {
+    "transformer": 0.5826666712760925,
+    "transformer_std": 0.03427990666550258,
+    "meanpool": 0.5913333415985107,
+    "meanpool_std": 0.03015515035624363
+   },
+   "full": {
+    "transformer": 0.5,
+    "transformer_std": 0.0,
+    "meanpool": 0.5,
+    "meanpool_std": 0.0
+   }
+  },
+  "sensitive": {
+   "none": {
+    "transformer": 0.746666669845581,
+    "transformer_std": 0.02708013447186584,
+    "meanpool": 0.727999997138977,
+    "meanpool_std": 0.0564348116328653
+   },
+   "full": {
+    "transformer": 0.5,
+    "transformer_std": 0.0,
+    "meanpool": 0.5,
+    "meanpool_std": 0.0
+   }
+  },
+  "medical": {
+   "none": {
+    "transformer": 0.9893333435058593,
+    "transformer_std": 0.0024944358789675937,
+    "meanpool": 0.990666675567627,
+    "meanpool_std": 0.001333332061767578
+   },
+   "full": {
+    "transformer": 0.5,
+    "transformer_std": 0.0,
+    "meanpool": 0.5,
+    "meanpool_std": 0.0
+   }
+  },
+  "code": {
+   "none": {
+    "transformer": 0.9946666717529297,
+    "transformer_std": 0.002666664123535156,
+    "meanpool": 0.9900000095367432,
+    "meanpool_std": 0.00365148023437487
+   },
+   "full": {
+    "transformer": 0.5,
+    "transformer_std": 0.0,
+    "meanpool": 0.5,
+    "meanpool_std": 0.0
+   }
+  }
+ }
+}

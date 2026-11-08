@@ -1,0 +1,3 @@
+[c] checkpoints/moe_8e.pt n_dummy=6: clean=1.39937186 decoy=1.39937186 |diff|=0.00e+00
+[c] checkpoints/moe_32e.pt n_dummy=28: clean=2.21241140 decoy=2.21241140 |diff|=0.00e+00
+[c] checkpoints/moe_64e.pt n_dummy=60: clean=2.39758468 decoy=2.39758468 |diff|=0.00e+00

@@ -1,0 +1,29 @@
+name, driver_version, memory.total [MiB]
+NVIDIA H100 NVL, 580.173.02, 95830 MiB
+=== coverage
+Sat  3 Oct 03:38:40 BST 2026
+B=  1: experts touched   6.2% (min 6.2, max 6.2, 384 layer-steps); uniform model   6.2%
+B=  2: experts touched  12.1% (min 9.4, max 12.5, 384 layer-steps); uniform model  12.1%
+B=  4: experts touched  17.5% (min 12.5, max 24.2, 384 layer-steps); uniform model  22.8%
+B=  8: experts touched  24.3% (min 15.6, max 39.8, 384 layer-steps); uniform model  40.3%
+B= 16: experts touched  30.4% (min 18.8, max 54.7, 384 layer-steps); uniform model  64.4%
+B= 32: experts touched  37.1% (min 21.9, max 67.2, 384 layer-steps); uniform model  87.3%
+B= 64: experts touched  42.2% (min 24.2, max 78.1, 384 layer-steps); uniform model  98.4%
+B=128: experts touched  49.7% (min 31.2, max 84.4, 384 layer-steps); uniform model 100.0%
+B=256: experts touched  54.8% (min 37.5, max 87.5, 384 layer-steps); uniform model 100.0%
+=== n_dummy=0
+Sat  3 Oct 03:49:22 BST 2026
+{"model": "Qwen/Qwen3-30B-A3B-Base", "n_dummy": 0, "gpu": "NVIDIA H100 NVL", "prefill": {"1": {"s": 0.023200896102935076, "tok_per_s": 22068.113133579714}, "16": {"s": 0.1843682990875095, "tok_per_s": 44432.80130339385}, "64": {"s": 0.6833910350687802, "tok_per_s": 47949.12183286404}}, "decode": {"1
+=== n_dummy=8
+Sat  3 Oct 03:53:26 BST 2026
+{"model": "Qwen/Qwen3-30B-A3B-Base", "n_dummy": 8, "gpu": "NVIDIA H100 NVL", "prefill": {"1": {"s": 0.03967149998061359, "tok_per_s": 12905.990452849044}, "16": {"s": 0.29850352508947253, "tok_per_s": 27443.56200666158}, "64": {"s": 1.109537080861628, "tok_per_s": 29533.037304668993}}, "decode": {"1
+=== n_dummy=24
+Sat  3 Oct 03:55:34 BST 2026
+{"model": "Qwen/Qwen3-30B-A3B-Base", "n_dummy": 24, "gpu": "NVIDIA H100 NVL", "prefill": {"1": {"s": 0.055292108096182346, "tok_per_s": 9259.91100048781}, "16": {"s": 0.5022029811516404, "tok_per_s": 16312.129372896778}, "64": {"s": 1.9012106251902878, "tok_per_s": 17235.333931883706}}, "decode": {"
+=== n_dummy=56
+Sat  3 Oct 03:57:59 BST 2026
+{"model": "Qwen/Qwen3-30B-A3B-Base", "n_dummy": 56, "gpu": "NVIDIA H100 NVL", "prefill": {"1": {"s": 0.08531739399768412, "tok_per_s": 6001.120943917929}, "16": {"s": 0.9062979589216411, "tok_per_s": 9038.96993186132}, "64": {"s": 3.6784809089731425, "tok_per_s": 8908.02502741472}}, "decode": {"1": 
+=== n_dummy=120
+Sat  3 Oct 04:00:45 BST 2026
+{"model": "Qwen/Qwen3-30B-A3B-Base", "n_dummy": 120, "gpu": "NVIDIA H100 NVL", "prefill": {"1": {"s": 0.13500911300070584, "tok_per_s": 3792.3365958068566}, "16": {"s": 1.730996608035639, "tok_per_s": 4732.533825872949}, "64": {"s": 7.002568282186985, "tok_per_s": 4679.425987655798}}, "decode": {"1"
+Sat  3 Oct 04:04:24 BST 2026

@@ -1,0 +1,20 @@
+=== Decode-phase residual: two STOCHASTIC decode attempts, fresh nonce each ===
+run A: 'tabletion feliend wa' 
+run B: 'ts persness of haps '
+mean cross-run trace agreement: 0.013  (should be low -- fresh nonce decorrelates stochastic attempts)
+
+=== Decode-phase residual: GREEDY (deterministic) repeated decode, fresh nonce still varies ===
+greedy generations across 6 repeats (should all be identical): {'t of his for hi'}
+(intersection-attack precision on this would reproduce the original naive-dummy vulnerability --
+ see 04_dummy_routing_and_attacks.py part (a) for the exact same mechanism)
+
+=== Static grouping: same greedy-repeat test, should show ZERO variation ===
+any variation in observed trace across repeats of identical content? False  (expect: False)
+
+=== Turns vs. attack-advantage curve (Table: fresh-nonce precision climbs, static-grouping stays flat) ===
+turns | fresh-nonce precision | static-grouping precision (floor = 1/g)
+    1 | 0.400                | 0.250
+    2 | 0.593                | 0.250
+    4 | 0.873                | 0.250
+    8 | 0.990                | 0.250
+   16 | 1.000                | 0.250

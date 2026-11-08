@@ -1,0 +1,8 @@
+[b] per-position char decoder, majority baseline 0.176
+[b] sigma=0.5 rho=0.0: val loss=1.5438  per-position attacker acc=0.909
+[b] sigma=0.5 rho=0.9: val loss=1.5431  per-position attacker acc=0.909
+[b] sigma=0.5 rho=0.98: val loss=1.5432  per-position attacker acc=0.906
+[b] sigma=1.0 rho=0.0: val loss=1.5986  per-position attacker acc=0.839
+[b] sigma=1.0 rho=0.9: val loss=1.6044  per-position attacker acc=0.836
+[b] sigma=1.0 rho=0.98: val loss=1.6038  per-position attacker acc=0.843
+[b] no noise: per-position attacker acc=0.935

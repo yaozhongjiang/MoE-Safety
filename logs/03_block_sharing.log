@@ -1,0 +1,9 @@
+block_size(B), relative_loss_increase_vs_B1
+B=   1  loss=1.8990  rel_increase=+0.0%
+B=   2  loss=2.9071  rel_increase=+53.1%
+B=   4  loss=3.1164  rel_increase=+64.1%
+B=   8  loss=3.4073  rel_increase=+79.4%
+B=  16  loss=3.2425  rel_increase=+70.7%
+B=  32  loss=3.2904  rel_increase=+73.3%
+B=  64  loss=3.8883  rel_increase=+104.8%
+B= 128  loss=3.8883  rel_increase=+104.8%

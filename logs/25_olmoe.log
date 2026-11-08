@@ -1,0 +1,31 @@
+[data] nationality pool per class: train 450, test 450
+[data] sensitive   pool per class: train 261, test 283
+[data] medical     pool per class: train 450, test 450
+[data] code        pool per class: train 450, test 450
+  generated 64/6131
+  generated 1088/6131
+  generated 2112/6131
+  generated 3136/6131
+  generated 4160/6131
+  generated 5184/6131
+[OLMoE-1B-7B-0924] decode routing for 6131 prompts x 32 steps in 561s
+[OLMoE-1B-7B-0924 nationality] decode none     meanpool  64.5 ( 4.0)  deepsets  62.8 ( 3.9)
+[OLMoE-1B-7B-0924 nationality] decode decoy12  meanpool  65.0 ( 2.7)  deepsets  64.7 ( 2.8)
+[OLMoE-1B-7B-0924 nationality] decode group16  meanpool  51.0 ( 2.2)  deepsets  55.3 ( 1.8)
+[OLMoE-1B-7B-0924 nationality] decode group32  meanpool  50.0 ( 0.0)  deepsets  50.7 ( 2.1)
+[OLMoE-1B-7B-0924 nationality] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)
+[OLMoE-1B-7B-0924 sensitive  ] decode none     meanpool  79.7 ( 1.8)  deepsets  79.8 ( 2.4)
+[OLMoE-1B-7B-0924 sensitive  ] decode decoy12  meanpool  77.5 ( 8.4)  deepsets  81.0 ( 2.3)
+[OLMoE-1B-7B-0924 sensitive  ] decode group16  meanpool  77.3 ( 2.7)  deepsets  76.5 ( 1.4)
+[OLMoE-1B-7B-0924 sensitive  ] decode group32  meanpool  50.9 ( 2.3)  deepsets  52.5 ( 4.4)
+[OLMoE-1B-7B-0924 sensitive  ] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)
+[OLMoE-1B-7B-0924 medical    ] decode none     meanpool  98.9 ( 0.5)  deepsets  98.9 ( 0.4)
+[OLMoE-1B-7B-0924 medical    ] decode decoy12  meanpool  98.3 ( 1.6)  deepsets  98.8 ( 0.6)
+[OLMoE-1B-7B-0924 medical    ] decode group16  meanpool  98.2 ( 0.6)  deepsets  93.9 ( 6.0)
+[OLMoE-1B-7B-0924 medical    ] decode group32  meanpool  50.3 ( 0.6)  deepsets  52.5 ( 5.5)
+[OLMoE-1B-7B-0924 medical    ] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)
+[OLMoE-1B-7B-0924 code       ] decode none     meanpool  98.9 ( 0.3)  deepsets  98.8 ( 0.4)
+[OLMoE-1B-7B-0924 code       ] decode decoy12  meanpool  98.8 ( 0.5)  deepsets  98.8 ( 0.5)
+[OLMoE-1B-7B-0924 code       ] decode group16  meanpool  98.1 ( 0.5)  deepsets  95.1 ( 5.0)
+[OLMoE-1B-7B-0924 code       ] decode group32  meanpool  55.5 (12.2)  deepsets  62.3 ( 7.5)
+[OLMoE-1B-7B-0924 code       ] decode full     meanpool  50.0 ( 0.0)  deepsets  50.0 ( 0.0)

@@ -1,0 +1,23 @@
+[genre seed=0] clean=0.710  noise0.5=0.630/0.640  noise1.0=0.530/0.660  noise2.0=0.500/0.610  decoy3=0.500/0.610  decoy6=0.500/0.500  group2=0.500/0.660  group4=0.500/0.670  group8=0.500/0.500
+[genre seed=1] clean=0.720  noise0.5=0.670/0.710  noise1.0=0.580/0.730  noise2.0=0.510/0.720  decoy3=0.500/0.630  decoy6=0.500/0.500  group2=0.500/0.650  group4=0.500/0.630  group8=0.500/0.500
+[genre seed=2] clean=0.830  noise0.5=0.800/0.700  noise1.0=0.580/0.720  noise2.0=0.500/0.750  decoy3=0.500/0.640  decoy6=0.500/0.500  group2=0.500/0.730  group4=0.500/0.660  group8=0.500/0.500
+[genre seed=3] clean=0.710  noise0.5=0.720/0.720  noise1.0=0.560/0.690  noise2.0=0.500/0.690  decoy3=0.500/0.610  decoy6=0.500/0.500  group2=0.500/0.710  group4=0.500/0.660  group8=0.500/0.500
+[genre seed=4] clean=0.810  noise0.5=0.740/0.730  noise1.0=0.610/0.680  noise2.0=0.500/0.620  decoy3=0.500/0.700  decoy6=0.500/0.500  group2=0.500/0.770  group4=0.500/0.640  group8=0.500/0.500
+[genre] 5-seed mean (std):
+   clean      0.756 (0.059)
+   noise0.5   naive    0.712 (0.065)
+   noise0.5   adaptive 0.700 (0.035)
+   noise1.0   naive    0.572 (0.029)
+   noise1.0   adaptive 0.696 (0.029)
+   noise2.0   naive    0.502 (0.004)
+   noise2.0   adaptive 0.678 (0.061)
+   decoy3     naive    0.500 (0.000)
+   decoy3     adaptive 0.638 (0.037)
+   decoy6     naive    0.500 (0.000)
+   decoy6     adaptive 0.500 (0.000)
+   group2     naive    0.500 (0.000)
+   group2     adaptive 0.704 (0.050)
+   group4     naive    0.500 (0.000)
+   group4     adaptive 0.652 (0.016)
+   group8     naive    0.500 (0.000)
+   group8     adaptive 0.500 (0.000)

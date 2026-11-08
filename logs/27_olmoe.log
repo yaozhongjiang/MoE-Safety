@@ -1,0 +1,40 @@
+[data] nationality pool per class: train 450, test 450
+[data] sensitive   pool per class: train 261, test 283
+[data] medical     pool per class: train 450, test 450
+[data] code        pool per class: train 450, test 450
+[OLMoE-1B-7B-0924 nationality] B=16 injected c= 0 (honest 15): meanpool  53.0 ( 4.3)  bound  59.8  OK
+[OLMoE-1B-7B-0924 nationality] B=16 injected c= 8 (honest  7): meanpool  54.0 ( 2.9)  bound  63.7  OK
+[OLMoE-1B-7B-0924 nationality] B=16 injected c=12 (honest  3): meanpool  55.7 ( 1.2)  bound  68.8  OK
+[OLMoE-1B-7B-0924 nationality] B=16 injected c=15 (honest  0): meanpool  68.0 ( 2.0)  bound 100.0  OK
+[OLMoE-1B-7B-0924 nationality] B=64 injected c= 0 (honest 63): meanpool  50.5 ( 1.3)  bound  55.0  OK
+[OLMoE-1B-7B-0924 nationality] B=64 injected c=32 (honest 31): meanpool  48.9 ( 1.3)  bound  57.0  OK
+[OLMoE-1B-7B-0924 nationality] B=64 injected c=48 (honest 15): meanpool  53.0 ( 4.3)  bound  59.8  OK
+[OLMoE-1B-7B-0924 nationality] B=64 injected c=60 (honest  3): meanpool  55.7 ( 1.2)  bound  68.8  OK
+[OLMoE-1B-7B-0924 nationality] B=64 injected c=63 (honest  0): meanpool  68.0 ( 2.0)  bound 100.0  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=16 injected c= 0 (honest 15): meanpool  53.7 ( 2.2)  bound  59.8  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=16 injected c= 8 (honest  7): meanpool  54.7 ( 4.5)  bound  63.7  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=16 injected c=12 (honest  3): meanpool  58.6 ( 2.7)  bound  68.8  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=16 injected c=15 (honest  0): meanpool  79.7 ( 1.6)  bound 100.0  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=64 injected c= 0 (honest 63): meanpool  51.3 ( 1.8)  bound  55.0  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=64 injected c=32 (honest 31): meanpool  51.2 ( 2.6)  bound  57.0  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=64 injected c=48 (honest 15): meanpool  53.7 ( 2.2)  bound  59.8  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=64 injected c=60 (honest  3): meanpool  58.6 ( 2.7)  bound  68.8  OK
+[OLMoE-1B-7B-0924 sensitive  ] B=64 injected c=63 (honest  0): meanpool  79.7 ( 1.6)  bound 100.0  OK
+[OLMoE-1B-7B-0924 medical    ] B=16 injected c= 0 (honest 15): meanpool  55.9 ( 2.8)  bound  59.8  OK
+[OLMoE-1B-7B-0924 medical    ] B=16 injected c= 8 (honest  7): meanpool  57.4 ( 2.5)  bound  63.7  OK
+[OLMoE-1B-7B-0924 medical    ] B=16 injected c=12 (honest  3): meanpool  66.5 ( 2.9)  bound  68.8  OK
+[OLMoE-1B-7B-0924 medical    ] B=16 injected c=15 (honest  0): meanpool  99.0 ( 0.6)  bound 100.0  OK
+[OLMoE-1B-7B-0924 medical    ] B=64 injected c= 0 (honest 63): meanpool  52.2 ( 4.3)  bound  55.0  OK
+[OLMoE-1B-7B-0924 medical    ] B=64 injected c=32 (honest 31): meanpool  52.1 ( 2.2)  bound  57.0  OK
+[OLMoE-1B-7B-0924 medical    ] B=64 injected c=48 (honest 15): meanpool  55.9 ( 2.8)  bound  59.8  OK
+[OLMoE-1B-7B-0924 medical    ] B=64 injected c=60 (honest  3): meanpool  66.5 ( 2.9)  bound  68.8  OK
+[OLMoE-1B-7B-0924 medical    ] B=64 injected c=63 (honest  0): meanpool  99.0 ( 0.6)  bound 100.0  OK
+[OLMoE-1B-7B-0924 code       ] B=16 injected c= 0 (honest 15): meanpool  52.5 ( 4.3)  bound  59.8  OK
+[OLMoE-1B-7B-0924 code       ] B=16 injected c= 8 (honest  7): meanpool  58.3 ( 2.2)  bound  63.7  OK
+[OLMoE-1B-7B-0924 code       ] B=16 injected c=12 (honest  3): meanpool  63.2 ( 4.7)  bound  68.8  OK
+[OLMoE-1B-7B-0924 code       ] B=16 injected c=15 (honest  0): meanpool  99.6 ( 0.4)  bound 100.0  OK
+[OLMoE-1B-7B-0924 code       ] B=64 injected c= 0 (honest 63): meanpool  51.6 ( 2.4)  bound  55.0  OK
+[OLMoE-1B-7B-0924 code       ] B=64 injected c=32 (honest 31): meanpool  54.0 ( 4.2)  bound  57.0  OK
+[OLMoE-1B-7B-0924 code       ] B=64 injected c=48 (honest 15): meanpool  52.5 ( 4.3)  bound  59.8  OK
+[OLMoE-1B-7B-0924 code       ] B=64 injected c=60 (honest  3): meanpool  63.2 ( 4.7)  bound  68.8  OK
+[OLMoE-1B-7B-0924 code       ] B=64 injected c=63 (honest  0): meanpool  99.6 ( 0.4)  bound 100.0  OK

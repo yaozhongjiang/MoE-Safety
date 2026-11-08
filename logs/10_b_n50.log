@@ -1,0 +1,18 @@
+[b] 32e seed=0 g=4: naive/adaptive=(0.5, 0.699999988079071)
+[b] 32e seed=0 g=8: naive/adaptive=(0.5799999833106995, 0.6100000143051147)
+[b] 32e seed=0 g=16: naive/adaptive=(0.5, 0.5899999737739563)
+[b] 32e seed=1 g=4: naive/adaptive=(0.5, 0.6899999976158142)
+[b] 32e seed=1 g=8: naive/adaptive=(0.5, 0.6399999856948853)
+[b] 32e seed=1 g=16: naive/adaptive=(0.5, 0.6899999976158142)
+[b] 32e seed=2 g=4: naive/adaptive=(0.5, 0.6000000238418579)
+[b] 32e seed=2 g=8: naive/adaptive=(0.5, 0.5799999833106995)
+[b] 32e seed=2 g=16: naive/adaptive=(0.5, 0.5899999737739563)
+[b] 32e seed=3 g=4: naive/adaptive=(0.5, 0.6399999856948853)
+[b] 32e seed=3 g=8: naive/adaptive=(0.5, 0.6000000238418579)
+[b] 32e seed=3 g=16: naive/adaptive=(0.5, 0.5)
+[b] 32e seed=4 g=4: naive/adaptive=(0.5099999904632568, 0.5600000023841858)
+[b] 32e seed=4 g=8: naive/adaptive=(0.5, 0.6299999952316284)
+[b] 32e seed=4 g=16: naive/adaptive=(0.5, 0.46000000834465027)
+[b] 32e g=4: seed0 adaptive=0.700 mean=0.638 std=0.059
+[b] 32e g=8: seed0 adaptive=0.610 mean=0.612 std=0.024
+[b] 32e g=16: seed0 adaptive=0.590 mean=0.566 std=0.090

@@ -1,0 +1,12 @@
+[granite-3.0-1b-a400m-base] g= 2 index  avg m/k=1.79  dialogue: mp 88.3 ds 93.7  genre: mp 97.4 ds 97.0  entity: mp 85.6 ds 98.3  topic: mp 67.8 ds 68.4
+[granite-3.0-1b-a400m-base] g= 2 random avg m/k=1.77  dialogue: mp 88.7 ds 94.1  genre: mp 97.3 ds 97.7  entity: mp 83.1 ds 97.5  topic: mp 63.3 ds 67.8
+[granite-3.0-1b-a400m-base] g= 2 coact  avg m/k=1.44  dialogue: mp 89.0 ds 93.7  genre: mp 96.4 ds 97.6  entity: mp 79.7 ds 97.1  topic: mp 61.7 ds 66.9
+[granite-3.0-1b-a400m-base] g= 4 index  avg m/k=2.85  dialogue: mp 86.5 ds 93.5  genre: mp 97.5 ds 96.7  entity: mp 76.1 ds 85.8  topic: mp 66.2 ds 61.5
+[granite-3.0-1b-a400m-base] g= 4 random avg m/k=2.81  dialogue: mp 86.5 ds 91.5  genre: mp 96.5 ds 96.5  entity: mp 67.9 ds 87.6  topic: mp 64.2 ds 64.7
+[granite-3.0-1b-a400m-base] g= 4 coact  avg m/k=2.05  dialogue: mp 85.7 ds 93.7  genre: mp 95.4 ds 96.9  entity: mp 81.5 ds 97.1  topic: mp 63.5 ds 64.8
+[granite-3.0-1b-a400m-base] g= 8 index  avg m/k=3.73  dialogue: mp 80.7 ds 84.3  genre: mp 88.9 ds 86.0  entity: mp 55.7 ds 69.6  topic: mp 54.5 ds 55.9
+[granite-3.0-1b-a400m-base] g= 8 random avg m/k=3.72  dialogue: mp 76.4 ds 79.1  genre: mp 90.9 ds 91.7  entity: mp 67.3 ds 67.7  topic: mp 62.4 ds 63.5
+[granite-3.0-1b-a400m-base] g= 8 coact  avg m/k=2.83  dialogue: mp 86.2 ds 89.7  genre: mp 94.7 ds 94.5  entity: mp 72.3 ds 93.0  topic: mp 66.5 ds 65.9
+[granite-3.0-1b-a400m-base] g=16 index  avg m/k=4.00  dialogue: mp 49.7 ds 49.9  genre: mp 54.7 ds 50.2  entity: mp 49.2 ds 49.1  topic: mp 51.3 ds 50.3
+[granite-3.0-1b-a400m-base] g=16 random avg m/k=4.00  dialogue: mp 51.8 ds 51.8  genre: mp 58.5 ds 50.2  entity: mp 55.5 ds 49.8  topic: mp 45.7 ds 48.8
+[granite-3.0-1b-a400m-base] g=16 coact  avg m/k=3.54  dialogue: mp 78.5 ds 81.9  genre: mp 80.7 ds 87.4  entity: mp 57.9 ds 64.7  topic: mp 51.9 ds 55.7

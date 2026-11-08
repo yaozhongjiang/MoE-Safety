@@ -1,0 +1,20 @@
+[data] nationality pool per class: train 450, test 450
+[data] sensitive   pool per class: train 261, test 283
+[data] medical     pool per class: train 450, test 450
+[data] code        pool per class: train 450, test 450
+[OLMoE-1B-7B-0924 nationality] B= 1: load-leakage  65.3% (padded -> chance); capacity-pad cost 447.2%  (full coverage 700%)
+[OLMoE-1B-7B-0924 nationality] B= 4: load-leakage  77.5% (padded -> chance); capacity-pad cost 277.7%  (full coverage 700%)
+[OLMoE-1B-7B-0924 nationality] B=16: load-leakage  91.2% (padded -> chance); capacity-pad cost 234.7%  (full coverage 700%)
+[OLMoE-1B-7B-0924 nationality] B=64: load-leakage  99.5% (padded -> chance); capacity-pad cost 222.8%  (full coverage 700%)
+[OLMoE-1B-7B-0924 sensitive  ] B= 1: load-leakage  77.5% (padded -> chance); capacity-pad cost 428.1%  (full coverage 700%)
+[OLMoE-1B-7B-0924 sensitive  ] B= 4: load-leakage  90.3% (padded -> chance); capacity-pad cost 281.5%  (full coverage 700%)
+[OLMoE-1B-7B-0924 sensitive  ] B=16: load-leakage  97.7% (padded -> chance); capacity-pad cost 242.2%  (full coverage 700%)
+[OLMoE-1B-7B-0924 sensitive  ] B=64: load-leakage 100.0% (padded -> chance); capacity-pad cost 232.5%  (full coverage 700%)
+[OLMoE-1B-7B-0924 medical    ] B= 1: load-leakage  98.2% (padded -> chance); capacity-pad cost 420.2%  (full coverage 700%)
+[OLMoE-1B-7B-0924 medical    ] B= 4: load-leakage 100.0% (padded -> chance); capacity-pad cost 321.6%  (full coverage 700%)
+[OLMoE-1B-7B-0924 medical    ] B=16: load-leakage 100.0% (padded -> chance); capacity-pad cost 298.6%  (full coverage 700%)
+[OLMoE-1B-7B-0924 medical    ] B=64: load-leakage 100.0% (padded -> chance); capacity-pad cost 293.0%  (full coverage 700%)
+[OLMoE-1B-7B-0924 code       ] B= 1: load-leakage  99.3% (padded -> chance); capacity-pad cost 506.1%  (full coverage 700%)
+[OLMoE-1B-7B-0924 code       ] B= 4: load-leakage 100.0% (padded -> chance); capacity-pad cost 432.0%  (full coverage 700%)
+[OLMoE-1B-7B-0924 code       ] B=16: load-leakage 100.0% (padded -> chance); capacity-pad cost 413.8%  (full coverage 700%)
+[OLMoE-1B-7B-0924 code       ] B=64: load-leakage 100.0% (padded -> chance); capacity-pad cost 408.4%  (full coverage 700%)

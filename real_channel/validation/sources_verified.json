@@ -1,0 +1,30 @@
+{
+  "model_config": {
+    "url": "https://modelscope.cn/models/AI-ModelScope/granite-3.0-1b-a400m-base/resolve/master/config.json",
+    "model_type": "granitemoe",
+    "E": 32,
+    "K": 8,
+    "L": 24
+  },
+  "code": {
+    "repo": "AI-ModelScope/CodeAlpaca-20k",
+    "file": "CodeAlpaca-20k.jsonl",
+    "revision": "1d2d16f860d10fde67ea0a8e29c31378cf5bf65e",
+    "sha256": "448041af7f60c337ed8f1fdbaacb717a2495b7769d99290cf60817adb6904626",
+    "bytes": 7030293,
+    "rows": 20022
+  },
+  "general": {
+    "repo": "AI-ModelScope/databricks-dolly-15k",
+    "file": "databricks-dolly-15k.jsonl",
+    "revision": "40789acc12fc986e9145f87d159f19e2f1d75c6a",
+    "sha256": "2df9083338b4abd6bceb5635764dab5d833b393b55759dffb0959b6fcbf794ec",
+    "bytes": 13085339,
+    "rows": 15011
+  },
+  "wildchat_metadata_only": {
+    "repo": "allenai/WildChat-1M",
+    "first_shard": "data/train-00000-of-00014.parquet",
+    "downloaded": false
+  }
+}

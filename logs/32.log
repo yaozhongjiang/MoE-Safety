@@ -1,0 +1,19 @@
+E=8 k=2 m=5 (decoy), group size g=2
+fresh-nonce decoy: 28 classes over 28 routings (identity -> no asymptotic privacy)
+static grouping:   10 classes over 28 routings (R ~ R' iff same group labels)
+
+T-sample distinguisher advantage (grouping): converges to the partition prediction
+  T= 1: same-class adv 0.000 (predict 0.000), diff-class adv 0.500 (predict 0.500)
+  T= 4: same-class adv 0.000 (predict 0.000), diff-class adv 0.500 (predict 0.500)
+  T=16: same-class adv 0.000 (predict 0.000), diff-class adv 0.500 (predict 0.500)
+  T=64: same-class adv 0.000 (predict 0.000), diff-class adv 0.500 (predict 0.500)
+
+T-sample distinguisher advantage (fresh-nonce decoy): no same-class pair exists; all pairs separate
+  T= 1: adv 0.262 (predict -> 0.500)
+  T= 4: adv 0.469 (predict -> 0.500)
+  T=16: adv 0.500 (predict -> 0.500)
+  T=64: adv 0.500 (predict -> 0.500)
+
+Attribute a(R)=[expert 0 in R]: asymptotic Bayes vulnerability = partition's vulnerability
+  fresh-nonce: Bayes vulnerability given class = 1.000  (blind guess 0.750)
+  grouping   : Bayes vulnerability given class = 0.786  (blind guess 0.750)
